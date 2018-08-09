@@ -1,0 +1,1930 @@
+@media (min-width: 0px) and (max-width: 320px) {
+  .services .snd {
+    margin-top: 50px; }
+
+  body header .black_row {
+    border: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    background: #2f2e2e;
+    height: 107px; }
+    body header .black_row nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 23px; }
+      body header .black_row nav .contacts {
+        display: none; }
+    body header .black_row .nva li a {
+      font-family: Tahoma, sans-serif;
+      font-size: 13px;
+      color: #fff; }
+    body header .black_row .nav {
+      background: #2F2E2E; }
+  body header .main {
+    padding-top: 105px;
+    min-height: 614px;
+    text-align: center; }
+    body header .main .parallax-window {
+      background: top top;
+      min-height: 614px; }
+      body header .main .parallax-window .logo_names {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        body header .main .parallax-window .logo_names .logo {
+          font-family: "OpenSansCondBold", sans-serif;
+          font-size: 60px;
+          color: #fff; }
+        body header .main .parallax-window .logo_names .discriprion {
+          font-family: "OpenSansCondBold", sans-serif;
+          color: #fff;
+          font-size: 16px;
+          text-shadow: 2px 2px 11px #000; }
+  body .intruduction .bg {
+    background: url(../img/grey_bg.png);
+    height: auto;
+    padding-bottom: 120px; }
+  body .intruduction .intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .intruduction .intro_container .intro {
+      text-align: center;
+      margin-top: 75px;
+      background: #fff;
+      width: 876px;
+      height: auto;
+      padding-bottom: 60px; }
+      body .intruduction .intro_container .intro .head {
+        margin-top: 55px;
+        margin-bottom: 22px;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .intruduction .intro_container .intro .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .intruduction .intro_container .intro .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: black;
+          margin-bottom: 50px; }
+      body .intruduction .intro_container .intro .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .intruduction .intro_container .intro .body span {
+          font-family: "BrutalTypeBold", sans-serif; }
+  body .services .bg {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 120px; }
+  body .services .services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .services .services_container .services {
+      background: none;
+      text-align: center;
+      margin-top: 75px;
+      width: 876px;
+      height: auto; }
+      body .services .services_container .services .head {
+        margin-bottom: 22px;
+        color: white;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .services .services_container .services .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .services .services_container .services .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: white;
+          margin-bottom: 50px; }
+      body .services .services_container .services .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif;
+        color: #fff; }
+      body .services .services_container .services .fst, body .services .services_container .services .snd {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .services .services_container .services .fst .flex_container, body .services .services_container .services .snd .flex_container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .services .services_container .services .fst .icon_border, body .services .services_container .services .snd .icon_border {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 234px;
+          height: 234px;
+          border: 3px white solid;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+        body .services .services_container .services .fst .head, body .services .services_container .services .snd .head {
+          margin-top: 20px; }
+  body .vr {
+    background: url(../img/captain_bridge-min.png) center;
+    background-size: cover;
+    height: 120vh; }
+    body .vr .vr_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .vr .vr_container .vr {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body .vr .vr_container .vr .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .vr .vr_container .vr .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .vr .vr_container .vr .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body .vr .vr_container .vr .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body ._360 {
+    background-size: cover; }
+    body ._360 ._360_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body ._360 ._360_container ._360 {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body ._360 ._360_container ._360 .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body ._360 ._360_container ._360 .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body ._360 ._360_container ._360 .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body ._360 ._360_container ._360 .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body .clients {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto; }
+    body .clients .clients_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .clients .clients_container .clients {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: auto; }
+        body .clients .clients_container .clients .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .clients .clients_container .clients .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .clients .clients_container .clients .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 90px; }
+        body .clients .clients_container .clients .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+    body .clients .banner {
+      margin-bottom: 180px;
+      font-size: 18px;
+      font-family: "BrutalTypeLight", sans-serif; }
+      body .clients .banner .bg_container {
+        padding: 0; }
+        body .clients .banner .bg_container .bg {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 252px;
+          background-repeat: no-repeat !important;
+          background-size: cover !important; }
+          body .clients .banner .bg_container .bg .head_container {
+            width: 100%;
+            text-align: center; }
+            body .clients .banner .bg_container .bg .head_container .head {
+              background: rgba(255, 255, 255, 0.13);
+              padding: 9px 0;
+              font-family: 'RalewayMedium', sans-serif;
+              font-size: 16px;
+              color: #fff; }
+              body .clients .banner .bg_container .bg .head_container .head span {
+                font-family: 'RalewayExtraBold', sans-serif; }
+        body .clients .banner .bg_container .ph_1 {
+          background: url(../img/knowledgeble_ship-min.png); }
+        body .clients .banner .bg_container .ph_2 {
+          background: url(../img/and_finally-min.png); }
+        body .clients .banner .bg_container .ph_3 {
+          background: url(../img/Inventive_naval_architects-min.png); }
+        body .clients .banner .bg_container .ph_4 {
+          background: url(../img/creative_designers-min.png); }
+        body .clients .banner .bg_container .ph_5 {
+          background: url(../img/enduring_project_managers-min.png); }
+        body .clients .banner .bg_container .ph_6 {
+          background: url(../img/competitive_broc-min.png); }
+  body .who_we_are {
+    height: auto;
+    padding-bottom: 70px; }
+    body .who_we_are .photo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .who_we_are .who_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .who_we_are .who_container .who {
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 15px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .who_we_are .who_container .who .head {
+          margin-top: 10px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .who_we_are .who_container .who .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .who_we_are .who_container .who .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 50px; }
+        body .who_we_are .who_container .who .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif; }
+          body .who_we_are .who_container .who .body span {
+            font-family: "BrutalTypeBold", sans-serif; }
+  body .contact_us {
+    height: auto;
+    padding-bottom: 70px; }
+    body .contact_us .contact_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .contact_us .contact_container .contact {
+        text-align: center;
+        margin-top: 75px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .contact_us .contact_container .contact .head {
+          margin-top: 55px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .contact_us .contact_container .contact .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .contact_us .contact_container .contact .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 80px; }
+        body .contact_us .contact_container .contact .body {
+          font-size: 20px;
+          font-family: Tahoma, sans-serif; }
+          body .contact_us .contact_container .contact .body a {
+            color: #000; }
+          body .contact_us .contact_container .contact .body .mail {
+            margin-bottom: 20px; }
+          body .contact_us .contact_container .contact .body form input {
+            width: 374px;
+            height: 42px;
+            margin-bottom: 14px;
+            padding-bottom: 13px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border: 1px #000 solid;
+            font-family: Tahoma, sans-serif;
+            font-size: 20px;
+            color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              font-family: Tahoma, sans-serif;
+              font-size: 24px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-moz-placeholder {
+              /* Firefox 19+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-ms-input-placeholder {
+              /* IE 10+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-moz-placeholder {
+              /* Firefox 18- */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+          body .contact_us .contact_container .contact .body form .textarea {
+            padding-top: 10px;
+            height: 180px;
+            padding-bottom: 150px; }
+          body .contact_us .contact_container .contact .body form .submit_container {
+            display: flex;
+            justify-content: flex-end; }
+            body .contact_us .contact_container .contact .body form .submit_container .submit {
+              height: 42px;
+              width: 190px;
+              background: #2f2e2e;
+              color: #fff;
+              padding: 0px; }
+
+  body header .main .parallax-window .facebook-container {
+    height: calc(100% - 450px); }
+
+  .watermark {
+    font-size: 8px !important; }
+
+  body .contact_us .contact_container .contact .body form input {
+    width: 250px; }
+
+  body header .black_row {
+    height: 50px; }
+
+  body header .main {
+    padding-top: 50px; }
+
+  body header .black_row nav {
+    display: block !important;
+    margin-top: 0px !important; }
+
+  .nva {
+    margin-top: 0 !important; }
+
+  body .contact_us .contact_container .contact .phone {
+    margin-bottom: 20px; }
+
+  body .contact_us .contact_container .contact .body form .submit_container {
+    justify-content: center; } }
+@media (min-width: 321px) and (max-width: 480px) {
+  body header .main .parallax-window .facebook-container {
+    height: calc(100% - 310px); }
+
+  .watermark {
+    font-size: 8px !important; }
+
+  body header .black_row {
+    border: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    background: #2f2e2e;
+    height: 107px; }
+    body header .black_row nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 23px; }
+      body header .black_row nav .contacts {
+        display: none; }
+    body header .black_row .nva li a {
+      font-family: Tahoma, sans-serif;
+      font-size: 13px;
+      color: #fff; }
+    body header .black_row .nav {
+      background: #2F2E2E; }
+  body header .main {
+    padding-top: 105px;
+    min-height: 614px;
+    text-align: center; }
+    body header .main .parallax-window {
+      background: top top;
+      min-height: 614px; }
+      body header .main .parallax-window .logo_names {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        body header .main .parallax-window .logo_names .logo {
+          font-family: "OpenSansCondBold", sans-serif;
+          font-size: 60px;
+          color: #fff; }
+        body header .main .parallax-window .logo_names .discriprion {
+          font-family: "OpenSansCondBold", sans-serif;
+          color: #fff;
+          font-size: 16px;
+          text-shadow: 2px 2px 11px #000; }
+  body .intruduction .bg {
+    background: url(../img/grey_bg.png);
+    height: auto;
+    padding-bottom: 120px; }
+  body .intruduction .intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .intruduction .intro_container .intro {
+      text-align: center;
+      margin-top: 75px;
+      background: #fff;
+      width: 876px;
+      height: auto;
+      padding-bottom: 60px; }
+      body .intruduction .intro_container .intro .head {
+        margin-top: 55px;
+        margin-bottom: 22px;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .intruduction .intro_container .intro .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .intruduction .intro_container .intro .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: black;
+          margin-bottom: 50px; }
+      body .intruduction .intro_container .intro .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .intruduction .intro_container .intro .body span {
+          font-family: "BrutalTypeBold", sans-serif; }
+  body .services .bg {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 120px; }
+  body .services .services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .services .services_container .services {
+      background: none;
+      text-align: center;
+      margin-top: 75px;
+      width: 876px;
+      height: auto; }
+      body .services .services_container .services .head {
+        margin-bottom: 22px;
+        color: white;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .services .services_container .services .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .services .services_container .services .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: white;
+          margin-bottom: 50px; }
+      body .services .services_container .services .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif;
+        color: #fff; }
+      body .services .services_container .services .fst, body .services .services_container .services .snd {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .services .services_container .services .fst .flex_container, body .services .services_container .services .snd .flex_container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .services .services_container .services .fst .icon_border, body .services .services_container .services .snd .icon_border {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 234px;
+          height: 234px;
+          border: 3px white solid;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+        body .services .services_container .services .fst .head, body .services .services_container .services .snd .head {
+          margin-top: 20px; }
+  body .vr {
+    background: url(../img/captain_bridge-min.png) center;
+    background-size: cover; }
+    body .vr .vr_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .vr .vr_container .vr {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body .vr .vr_container .vr .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .vr .vr_container .vr .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .vr .vr_container .vr .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body .vr .vr_container .vr .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body ._360 {
+    background-size: cover; }
+    body ._360 ._360_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body ._360 ._360_container ._360 {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body ._360 ._360_container ._360 .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body ._360 ._360_container ._360 .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body ._360 ._360_container ._360 .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body ._360 ._360_container ._360 .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body .clients {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto; }
+    body .clients .clients_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .clients .clients_container .clients {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: auto; }
+        body .clients .clients_container .clients .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .clients .clients_container .clients .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .clients .clients_container .clients .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 90px; }
+        body .clients .clients_container .clients .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+    body .clients .banner {
+      margin-bottom: 180px;
+      font-size: 18px;
+      font-family: "BrutalTypeLight", sans-serif; }
+      body .clients .banner .bg_container {
+        padding: 0; }
+        body .clients .banner .bg_container .bg {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 252px;
+          background-repeat: no-repeat !important;
+          background-size: cover !important; }
+          body .clients .banner .bg_container .bg .head_container {
+            width: 100%;
+            text-align: center; }
+            body .clients .banner .bg_container .bg .head_container .head {
+              background: rgba(255, 255, 255, 0.13);
+              padding: 9px 0;
+              font-family: 'RalewayMedium', sans-serif;
+              font-size: 16px;
+              color: #fff; }
+              body .clients .banner .bg_container .bg .head_container .head span {
+                font-family: 'RalewayExtraBold', sans-serif; }
+        body .clients .banner .bg_container .ph_1 {
+          background: url(../img/knowledgeble_ship-min.png); }
+        body .clients .banner .bg_container .ph_2 {
+          background: url(../img/and_finally-min.png); }
+        body .clients .banner .bg_container .ph_3 {
+          background: url(../img/Inventive_naval_architects-min.png); }
+        body .clients .banner .bg_container .ph_4 {
+          background: url(../img/creative_designers-min.png); }
+        body .clients .banner .bg_container .ph_5 {
+          background: url(../img/enduring_project_managers-min.png); }
+        body .clients .banner .bg_container .ph_6 {
+          background: url(../img/competitive_broc-min.png); }
+  body .who_we_are {
+    height: auto;
+    padding-bottom: 70px; }
+    body .who_we_are .photo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .who_we_are .who_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .who_we_are .who_container .who {
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 15px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .who_we_are .who_container .who .head {
+          margin-top: 10px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .who_we_are .who_container .who .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .who_we_are .who_container .who .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 50px; }
+        body .who_we_are .who_container .who .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif; }
+          body .who_we_are .who_container .who .body span {
+            font-family: "BrutalTypeBold", sans-serif; }
+  body .contact_us {
+    height: auto;
+    padding-bottom: 70px; }
+    body .contact_us .contact_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .contact_us .contact_container .contact {
+        text-align: center;
+        margin-top: 75px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .contact_us .contact_container .contact .head {
+          margin-top: 55px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .contact_us .contact_container .contact .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .contact_us .contact_container .contact .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 80px; }
+        body .contact_us .contact_container .contact .body {
+          font-size: 20px;
+          font-family: Tahoma, sans-serif; }
+          body .contact_us .contact_container .contact .body a {
+            color: #000; }
+          body .contact_us .contact_container .contact .body .mail {
+            margin-bottom: 20px; }
+          body .contact_us .contact_container .contact .body form input {
+            width: 374px;
+            height: 42px;
+            margin-bottom: 14px;
+            padding-bottom: 13px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border: 1px #000 solid;
+            font-family: Tahoma, sans-serif;
+            font-size: 20px;
+            color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              font-family: Tahoma, sans-serif;
+              font-size: 24px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-moz-placeholder {
+              /* Firefox 19+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-ms-input-placeholder {
+              /* IE 10+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-moz-placeholder {
+              /* Firefox 18- */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+          body .contact_us .contact_container .contact .body form .textarea {
+            padding-top: 10px;
+            height: 180px;
+            padding-bottom: 150px; }
+          body .contact_us .contact_container .contact .body form .submit_container {
+            display: flex;
+            justify-content: flex-end; }
+            body .contact_us .contact_container .contact .body form .submit_container .submit {
+              height: 42px;
+              width: 190px;
+              background: #2f2e2e;
+              color: #fff;
+              padding: 0px; }
+
+  body .contact_us .contact_container .contact .body form input {
+    width: 300px; }
+
+  body header .black_row {
+    height: 50px; }
+
+  body header .main {
+    padding-top: 50px; }
+
+  body header .black_row nav {
+    display: block !important;
+    margin-top: 0px !important; }
+
+  .nva {
+    margin-top: 0 !important; }
+
+  body .contact_us .contact_container .contact .phone {
+    margin-bottom: 20px; }
+
+  body .contact_us .contact_container .contact .body form .submit_container {
+    justify-content: center; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  .services .snd {
+    margin-top: 50px; }
+
+  body header .black_row {
+    border: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    background: #2f2e2e;
+    height: 107px; }
+    body header .black_row nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 23px; }
+      body header .black_row nav .contacts {
+        display: none; }
+    body header .black_row .nva li a {
+      font-family: Tahoma, sans-serif;
+      font-size: 13px;
+      color: #fff; }
+    body header .black_row .nav {
+      background: #2F2E2E; }
+  body header .main {
+    padding-top: 105px;
+    min-height: 614px;
+    text-align: center; }
+    body header .main .parallax-window {
+      background: top top;
+      min-height: 614px; }
+      body header .main .parallax-window .logo_names {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        body header .main .parallax-window .logo_names .logo {
+          font-family: "OpenSansCondBold", sans-serif;
+          font-size: 60px;
+          color: #fff; }
+        body header .main .parallax-window .logo_names .discriprion {
+          font-family: "OpenSansCondBold", sans-serif;
+          color: #fff;
+          font-size: 16px;
+          text-shadow: 2px 2px 11px #000; }
+  body .intruduction .bg {
+    background: url(../img/grey_bg.png);
+    height: auto;
+    padding-bottom: 120px; }
+  body .intruduction .intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .intruduction .intro_container .intro {
+      text-align: center;
+      margin-top: 75px;
+      background: #fff;
+      width: 876px;
+      height: auto;
+      padding-bottom: 60px; }
+      body .intruduction .intro_container .intro .head {
+        margin-top: 55px;
+        margin-bottom: 22px;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px; }
+      body .intruduction .intro_container .intro .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .intruduction .intro_container .intro .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: black;
+          margin-bottom: 50px; }
+      body .intruduction .intro_container .intro .body {
+        font-size: 16px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .intruduction .intro_container .intro .body span {
+          font-family: "BrutalTypeBold", sans-serif; }
+  body .services .bg {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 120px; }
+  body .services .services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .services .services_container .services {
+      background: none;
+      text-align: center;
+      margin-top: 75px;
+      width: 876px;
+      height: auto; }
+      body .services .services_container .services .head {
+        margin-bottom: 22px;
+        color: white;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 24px; }
+      body .services .services_container .services .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .services .services_container .services .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: white;
+          margin-bottom: 50px; }
+      body .services .services_container .services .body {
+        font-size: 16px;
+        font-family: "BrutalTypeLight", sans-serif;
+        color: #fff; }
+      body .services .services_container .services .fst, body .services .services_container .services .snd {
+        font-size: 16px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .services .services_container .services .fst .flex_container, body .services .services_container .services .snd .flex_container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .services .services_container .services .fst .icon_border, body .services .services_container .services .snd .icon_border {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 234px;
+          height: 234px;
+          border: 3px white solid;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+        body .services .services_container .services .fst .head, body .services .services_container .services .snd .head {
+          margin-top: 20px; }
+  body .vr {
+    background: url(../img/captain_bridge-min.png) center;
+    background-size: cover; }
+    body .vr .vr_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .vr .vr_container .vr {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body .vr .vr_container .vr .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 24px; }
+        body .vr .vr_container .vr .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .vr .vr_container .vr .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body .vr .vr_container .vr .body {
+          font-size: 16px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body ._360 {
+    background-size: cover; }
+    body ._360 ._360_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body ._360 ._360_container ._360 {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body ._360 ._360_container ._360 .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 24px; }
+        body ._360 ._360_container ._360 .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body ._360 ._360_container ._360 .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body ._360 ._360_container ._360 .body {
+          font-size: 16px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body .clients {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto; }
+    body .clients .clients_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .clients .clients_container .clients {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: auto; }
+        body .clients .clients_container .clients .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 24px; }
+        body .clients .clients_container .clients .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .clients .clients_container .clients .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 90px; }
+        body .clients .clients_container .clients .body {
+          font-size: 16px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+    body .clients .banner {
+      margin-bottom: 180px;
+      font-size: 16px;
+      font-family: "BrutalTypeLight", sans-serif; }
+      body .clients .banner .bg_container {
+        padding: 0; }
+        body .clients .banner .bg_container .bg {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 252px;
+          background-repeat: no-repeat !important;
+          background-size: cover !important; }
+          body .clients .banner .bg_container .bg .head_container {
+            width: 100%;
+            text-align: center; }
+            body .clients .banner .bg_container .bg .head_container .head {
+              background: rgba(255, 255, 255, 0.13);
+              padding: 9px 0;
+              font-family: 'RalewayMedium', sans-serif;
+              font-size: 16px;
+              color: #fff; }
+              body .clients .banner .bg_container .bg .head_container .head span {
+                font-family: 'RalewayExtraBold', sans-serif; }
+        body .clients .banner .bg_container .ph_1 {
+          background: url(../img/knowledgeble_ship-min.png); }
+        body .clients .banner .bg_container .ph_2 {
+          background: url(../img/and_finally-min.png); }
+        body .clients .banner .bg_container .ph_3 {
+          background: url(../img/Inventive_naval_architects-min.png); }
+        body .clients .banner .bg_container .ph_4 {
+          background: url(../img/creative_designers-min.png); }
+        body .clients .banner .bg_container .ph_5 {
+          background: url(../img/enduring_project_managers-min.png); }
+        body .clients .banner .bg_container .ph_6 {
+          background: url(../img/competitive_broc-min.png); }
+  body .who_we_are {
+    height: auto;
+    padding-bottom: 70px; }
+    body .who_we_are .photo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .who_we_are .who_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .who_we_are .who_container .who {
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 15px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .who_we_are .who_container .who .head {
+          margin-top: 10px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 24px; }
+        body .who_we_are .who_container .who .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .who_we_are .who_container .who .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 50px; }
+        body .who_we_are .who_container .who .body {
+          font-size: 16px;
+          font-family: "BrutalTypeLight", sans-serif; }
+          body .who_we_are .who_container .who .body span {
+            font-family: "BrutalTypeBold", sans-serif; }
+  body .contact_us {
+    height: auto;
+    padding-bottom: 70px; }
+    body .contact_us .contact_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .contact_us .contact_container .contact {
+        text-align: center;
+        margin-top: 75px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .contact_us .contact_container .contact .head {
+          margin-top: 55px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 24px; }
+        body .contact_us .contact_container .contact .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .contact_us .contact_container .contact .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 80px; }
+        body .contact_us .contact_container .contact .body {
+          font-size: 20px;
+          font-family: Tahoma, sans-serif; }
+          body .contact_us .contact_container .contact .body a {
+            color: #000; }
+          body .contact_us .contact_container .contact .body .mail {
+            margin-bottom: 20px; }
+          body .contact_us .contact_container .contact .body form input {
+            width: 374px;
+            height: 42px;
+            margin-bottom: 14px;
+            padding-bottom: 13px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border: 1px #000 solid;
+            font-family: Tahoma, sans-serif;
+            font-size: 20px;
+            color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              font-family: Tahoma, sans-serif;
+              font-size: 24px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-moz-placeholder {
+              /* Firefox 19+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-ms-input-placeholder {
+              /* IE 10+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-moz-placeholder {
+              /* Firefox 18- */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+          body .contact_us .contact_container .contact .body form .textarea {
+            padding-top: 10px;
+            height: 180px;
+            padding-bottom: 150px; }
+          body .contact_us .contact_container .contact .body form .submit_container {
+            display: flex;
+            justify-content: flex-end; }
+            body .contact_us .contact_container .contact .body form .submit_container .submit {
+              height: 42px;
+              width: 190px;
+              background: #2f2e2e;
+              color: #fff;
+              padding: 0px; }
+
+  body header .black_row {
+    height: 50px; }
+
+  body header .main {
+    padding-top: 50px; }
+
+  body header .black_row nav {
+    display: block !important;
+    margin-top: 0px !important; }
+
+  .nva {
+    margin-top: 0 !important; }
+
+  body .contact_us .contact_container .contact .phone {
+    margin-bottom: 20px; }
+
+  body .contact_us .contact_container .contact .body form .submit_container {
+    justify-content: center; } }
+@media (min-width: 769px) and (max-width: 992px) {
+  .services .snd {
+    margin-top: 50px; }
+
+  body header .black_row {
+    border: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    background: #2f2e2e;
+    height: 107px; }
+    body header .black_row nav {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 23px; }
+    body header .black_row .nva li a {
+      font-family: Tahoma, sans-serif;
+      font-size: 13px;
+      color: #fff; }
+    body header .black_row .nav {
+      background: #2F2E2E; }
+  body header .main {
+    padding-top: 105px;
+    min-height: 614px;
+    text-align: center; }
+    body header .main .parallax-window {
+      background: top top;
+      min-height: 614px; }
+      body header .main .parallax-window .logo_names {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        body header .main .parallax-window .logo_names .logo {
+          font-family: "OpenSansCondBold", sans-serif;
+          font-size: 60px;
+          color: #fff; }
+        body header .main .parallax-window .logo_names .discriprion {
+          font-family: "OpenSansCondBold", sans-serif;
+          color: #fff;
+          font-size: 16px;
+          text-shadow: 2px 2px 11px #000; }
+  body .intruduction .bg {
+    background: url(../img/grey_bg.png);
+    height: auto;
+    padding-bottom: 120px; }
+  body .intruduction .intro_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .intruduction .intro_container .intro {
+      text-align: center;
+      margin-top: 75px;
+      background: #fff;
+      width: 876px;
+      height: auto;
+      padding-bottom: 60px; }
+      body .intruduction .intro_container .intro .head {
+        margin-top: 55px;
+        margin-bottom: 22px;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .intruduction .intro_container .intro .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .intruduction .intro_container .intro .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: black;
+          margin-bottom: 50px; }
+      body .intruduction .intro_container .intro .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .intruduction .intro_container .intro .body span {
+          font-family: "BrutalTypeBold", sans-serif; }
+  body .services .bg {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 120px; }
+  body .services .services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .services .services_container .services {
+      background: none;
+      text-align: center;
+      margin-top: 75px;
+      width: 876px;
+      height: auto; }
+      body .services .services_container .services .head {
+        margin-bottom: 22px;
+        color: white;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .services .services_container .services .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .services .services_container .services .flex-container .black_row {
+          width: 105px;
+          height: 9px;
+          background: white;
+          margin-bottom: 50px; }
+      body .services .services_container .services .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif;
+        color: #fff; }
+      body .services .services_container .services .fst, body .services .services_container .services .snd {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif; }
+        body .services .services_container .services .fst .flex_container, body .services .services_container .services .snd .flex_container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .services .services_container .services .fst .icon_border, body .services .services_container .services .snd .icon_border {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 234px;
+          height: 234px;
+          border: 3px white solid;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+        body .services .services_container .services .fst .head, body .services .services_container .services .snd .head {
+          margin-top: 20px; }
+  body .vr {
+    background: url(../img/captain_bridge-min.png) center;
+    background-size: cover; }
+    body .vr .vr_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .vr .vr_container .vr {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body .vr .vr_container .vr .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .vr .vr_container .vr .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .vr .vr_container .vr .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body .vr .vr_container .vr .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body ._360 {
+    background-size: cover; }
+    body ._360 ._360_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body ._360 ._360_container ._360 {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body ._360 ._360_container ._360 .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body ._360 ._360_container ._360 .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body ._360 ._360_container ._360 .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body ._360 ._360_container ._360 .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body .clients {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto; }
+    body .clients .clients_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .clients .clients_container .clients {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: auto; }
+        body .clients .clients_container .clients .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .clients .clients_container .clients .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .clients .clients_container .clients .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 90px; }
+        body .clients .clients_container .clients .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+    body .clients .banner {
+      margin-bottom: 180px;
+      font-size: 18px;
+      font-family: "BrutalTypeLight", sans-serif; }
+      body .clients .banner .bg_container {
+        padding: 0; }
+        body .clients .banner .bg_container .bg {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 252px;
+          background-repeat: no-repeat !important;
+          background-size: cover !important; }
+          body .clients .banner .bg_container .bg .head_container {
+            width: 100%;
+            text-align: center; }
+            body .clients .banner .bg_container .bg .head_container .head {
+              background: rgba(255, 255, 255, 0.13);
+              padding: 9px 0;
+              font-family: 'RalewayMedium', sans-serif;
+              font-size: 16px;
+              color: #fff; }
+              body .clients .banner .bg_container .bg .head_container .head span {
+                font-family: 'RalewayExtraBold', sans-serif; }
+        body .clients .banner .bg_container .ph_1 {
+          background: url(../img/knowledgeble_ship-min.png); }
+        body .clients .banner .bg_container .ph_2 {
+          background: url(../img/and_finally-min.png); }
+        body .clients .banner .bg_container .ph_3 {
+          background: url(../img/Inventive_naval_architects-min.png); }
+        body .clients .banner .bg_container .ph_4 {
+          background: url(../img/creative_designers-min.png); }
+        body .clients .banner .bg_container .ph_5 {
+          background: url(../img/enduring_project_managers-min.png); }
+        body .clients .banner .bg_container .ph_6 {
+          background: url(../img/competitive_broc-min.png); }
+  body .who_we_are {
+    height: auto;
+    padding-bottom: 70px; }
+    body .who_we_are .photo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .who_we_are .who_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .who_we_are .who_container .who {
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 15px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .who_we_are .who_container .who .head {
+          margin-top: 10px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .who_we_are .who_container .who .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .who_we_are .who_container .who .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 50px; }
+        body .who_we_are .who_container .who .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif; }
+          body .who_we_are .who_container .who .body span {
+            font-family: "BrutalTypeBold", sans-serif; }
+  body .contact_us {
+    height: auto;
+    padding-bottom: 70px; }
+    body .contact_us .contact_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .contact_us .contact_container .contact {
+        text-align: center;
+        margin-top: 75px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .contact_us .contact_container .contact .head {
+          margin-top: 55px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .contact_us .contact_container .contact .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .contact_us .contact_container .contact .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 80px; }
+        body .contact_us .contact_container .contact .body {
+          font-size: 20px;
+          font-family: Tahoma, sans-serif; }
+          body .contact_us .contact_container .contact .body a {
+            color: #000; }
+          body .contact_us .contact_container .contact .body .mail {
+            margin-bottom: 20px; }
+          body .contact_us .contact_container .contact .body form input {
+            width: 374px;
+            height: 42px;
+            margin-bottom: 14px;
+            padding-bottom: 13px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border: 1px #000 solid;
+            font-family: Tahoma, sans-serif;
+            font-size: 20px;
+            color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              font-family: Tahoma, sans-serif;
+              font-size: 24px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-moz-placeholder {
+              /* Firefox 19+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-ms-input-placeholder {
+              /* IE 10+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-moz-placeholder {
+              /* Firefox 18- */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+          body .contact_us .contact_container .contact .body form .textarea {
+            padding-top: 10px;
+            height: 180px;
+            padding-bottom: 150px; }
+          body .contact_us .contact_container .contact .body form .submit_container {
+            display: flex;
+            justify-content: flex-end; }
+            body .contact_us .contact_container .contact .body form .submit_container .submit {
+              height: 42px;
+              width: 190px;
+              background: #2f2e2e;
+              color: #fff;
+              padding: 0px; }
+
+  body .contact_us .contact_container .contact .body form .submit_container {
+    justify-content: center; }
+
+  body .contact_us .contact_container .contact .phone {
+    margin-bottom: 20px; } }
+@media (min-width: 993px) and (max-width: 8000px) {
+  body .intruduction .bg {
+    padding-bottom: 123px; }
+
+  body header .black_row .nva li a {
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff; }
+  body header .main {
+    padding-top: 105px;
+    min-height: 614px;
+    text-align: center; }
+    body header .main .parallax-window {
+      background: top top;
+      min-height: 614px; }
+      body header .main .parallax-window .logo_names {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        body header .main .parallax-window .logo_names .logo {
+          font-family: "OpenSansCondBold", sans-serif;
+          font-size: 60px;
+          color: #fff; }
+        body header .main .parallax-window .logo_names .discriprion {
+          font-family: "OpenSansCondBold", sans-serif;
+          color: #fff;
+          font-size: 16px;
+          text-shadow: 2px 2px 11px #000; }
+  body .intruduction .intro_container .intro .head {
+    margin-top: 55px;
+    margin-bottom: 22px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 27px; }
+  body .intruduction .intro_container .intro .body {
+    font-size: 18px;
+    font-family: "BrutalTypeLight", sans-serif; }
+    body .intruduction .intro_container .intro .body span {
+      font-family: "BrutalTypeBold", sans-serif; }
+  body .services .bg {
+    padding-bottom: 120px; }
+  body .services .services_container .services {
+    background: none;
+    text-align: center;
+    margin-top: 75px;
+    width: 876px;
+    height: auto; }
+    body .services .services_container .services .head {
+      margin-bottom: 22px;
+      color: white;
+      font-family: Tahoma, sans-serif;
+      font-weight: bold;
+      font-size: 27px; }
+    body .services .services_container .services .body {
+      font-size: 18px;
+      font-family: "BrutalTypeLight", sans-serif;
+      color: #fff; }
+  body .vr {
+    background: url(../img/captain_bridge-min.png) center;
+    background-size: cover; }
+    body .vr .vr_container .vr {
+      background: none;
+      text-align: center;
+      margin-top: 75px;
+      width: 876px;
+      height: 547px; }
+      body .vr .vr_container .vr .head {
+        margin-bottom: 22px;
+        color: white;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 27px; }
+      body .vr .vr_container .vr .body {
+        font-size: 18px;
+        font-family: "BrutalTypeLight", sans-serif;
+        color: #fff; }
+  body ._360 {
+    background-size: cover; }
+    body ._360 ._360_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body ._360 ._360_container ._360 {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: 547px; }
+        body ._360 ._360_container ._360 .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body ._360 ._360_container ._360 .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body ._360 ._360_container ._360 .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 50px; }
+        body ._360 ._360_container ._360 .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+  body .clients {
+    background: url(../img/black_bg.jpg);
+    background-size: cover;
+    height: auto; }
+    body .clients .clients_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .clients .clients_container .clients {
+        background: none;
+        text-align: center;
+        margin-top: 75px;
+        width: 876px;
+        height: auto; }
+        body .clients .clients_container .clients .head {
+          margin-bottom: 22px;
+          color: white;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .clients .clients_container .clients .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .clients .clients_container .clients .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: white;
+            margin-bottom: 90px; }
+        body .clients .clients_container .clients .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif;
+          color: #fff; }
+    body .clients .banner {
+      margin-bottom: 180px;
+      font-size: 18px;
+      font-family: "BrutalTypeLight", sans-serif; }
+      body .clients .banner .bg_container {
+        padding: 0; }
+        body .clients .banner .bg_container .bg {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height: 252px;
+          background-repeat: no-repeat !important;
+          background-size: cover !important; }
+          body .clients .banner .bg_container .bg .head_container {
+            width: 100%;
+            text-align: center; }
+            body .clients .banner .bg_container .bg .head_container .head {
+              background: rgba(255, 255, 255, 0.13);
+              padding: 9px 0;
+              font-family: 'RalewayMedium', sans-serif;
+              font-size: 16px;
+              color: #fff; }
+              body .clients .banner .bg_container .bg .head_container .head span {
+                font-family: 'RalewayExtraBold', sans-serif; }
+        body .clients .banner .bg_container .ph_1 {
+          background: url(../img/knowledgeble_ship-min.png); }
+        body .clients .banner .bg_container .ph_2 {
+          background: url(../img/and_finally-min.png); }
+        body .clients .banner .bg_container .ph_3 {
+          background: url(../img/Inventive_naval_architects-min.png); }
+        body .clients .banner .bg_container .ph_4 {
+          background: url(../img/creative_designers-min.png); }
+        body .clients .banner .bg_container .ph_5 {
+          background: url(../img/enduring_project_managers-min.png); }
+        body .clients .banner .bg_container .ph_6 {
+          background: url(../img/competitive_broc-min.png); }
+  body .who_we_are {
+    height: auto;
+    padding-bottom: 70px; }
+    body .who_we_are .photo_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    body .who_we_are .who_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .who_we_are .who_container .who {
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 15px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .who_we_are .who_container .who .head {
+          margin-top: 10px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .who_we_are .who_container .who .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .who_we_are .who_container .who .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 50px; }
+        body .who_we_are .who_container .who .body {
+          font-size: 18px;
+          font-family: "BrutalTypeLight", sans-serif; }
+          body .who_we_are .who_container .who .body span {
+            font-family: "BrutalTypeBold", sans-serif; }
+  body .contact_us {
+    height: auto;
+    padding-bottom: 70px; }
+    body .contact_us .contact_container {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .contact_us .contact_container .contact {
+        text-align: center;
+        margin-top: 75px;
+        background: #fff;
+        width: 876px;
+        height: auto;
+        padding-bottom: 60px; }
+        body .contact_us .contact_container .contact .head {
+          margin-top: 55px;
+          margin-bottom: 22px;
+          font-family: Tahoma, sans-serif;
+          font-weight: bold;
+          font-size: 27px; }
+        body .contact_us .contact_container .contact .flex-container {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .contact_us .contact_container .contact .flex-container .black_row {
+            width: 105px;
+            height: 9px;
+            background: black;
+            margin-bottom: 80px; }
+        body .contact_us .contact_container .contact .body {
+          font-size: 20px;
+          font-family: Tahoma, sans-serif; }
+          body .contact_us .contact_container .contact .body a {
+            color: #000; }
+          body .contact_us .contact_container .contact .body .mail {
+            margin-bottom: 20px; }
+          body .contact_us .contact_container .contact .body form input {
+            width: 374px;
+            height: 42px;
+            margin-bottom: 14px;
+            padding-bottom: 13px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border: 1px #000 solid;
+            font-family: Tahoma, sans-serif;
+            font-size: 20px;
+            color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              font-family: Tahoma, sans-serif;
+              font-size: 24px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input::-moz-placeholder {
+              /* Firefox 19+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-ms-input-placeholder {
+              /* IE 10+ */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+            body .contact_us .contact_container .contact .body form input:-moz-placeholder {
+              /* Firefox 18- */
+              font-family: Tahoma, sans-serif;
+              font-size: 20px;
+              color: #a5a5a5; }
+          body .contact_us .contact_container .contact .body form .textarea {
+            padding-top: 10px;
+            height: 180px;
+            padding-bottom: 150px; }
+          body .contact_us .contact_container .contact .body form .submit_container {
+            display: flex;
+            justify-content: flex-end; }
+            body .contact_us .contact_container .contact .body form .submit_container .submit {
+              height: 42px;
+              width: 190px;
+              background: #2f2e2e;
+              color: #fff;
+              padding: 0px; } }

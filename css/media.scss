@@ -1,0 +1,2782 @@
+
+@media(min-width:0px) and (max-width:320px) {
+
+	$sizeDiscr: 16px;
+	$sizeLogo: 60px;
+	$sizeNav: 13px;
+	$sizeForm: 20px;
+
+	$sizeHeader: 27px;
+	$sizeText: 18px;
+	$sizeClients: 18px;
+
+	$fontHeader: Tahoma, sans-serif;
+	$fontText: "BrutalTypeLight", sans-serif;
+	$fontBoldText: "BrutalTypeBold", sans-serif;
+	$fontClients: "RalewayMedium", sans-serif;
+	$fontBoldClients: "RalewayExtraBold", sans-serif;
+	
+	.services{
+		.snd{
+			margin-top: 50px;
+		}
+	}
+
+	body{
+
+		header {
+			.black_row{
+				border: 0;
+				border-radius: 0;
+				z-index: 1;
+				//overflow: hidden;
+				position: fixed; /* Set the navbar to fixed position */
+				top: 0; /* Position the navbar at the top of the page */
+				width: 100%; /* Full width */
+				nav{
+					display: flex;
+					justify-content: center;
+					margin-top: 23px;
+					.contacts{
+	                    display: none;       
+	                }
+				}
+				.nva{
+					
+					
+					li {
+						a {
+							font-family: $fontHeader;
+							font-size: $sizeNav;
+							color: #fff;
+						}
+					}
+
+
+				}
+				.nav{
+					background: #2F2E2E;
+				}
+				background: #2f2e2e;
+				height: 107px;
+			}
+
+			.main{
+				padding-top: 105px;
+				min-height: 614px;
+				.parallax-window{
+					background: top top;
+					min-height: 614px;
+					//height: 500px;
+					.logo_names {
+						.logo{
+							font-family: "OpenSansCondBold", sans-serif;
+							font-size: $sizeLogo;
+							color: #fff;
+						}
+						.discriprion{
+							font-family: "OpenSansCondBold", sans-serif;
+							color: #fff;
+							font-size: $sizeDiscr;
+							text-shadow: 2px 2px 11px #000;
+						}
+						
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						
+					}
+				}
+				text-align: center;
+				
+				
+			}
+			
+		}
+
+		.intruduction{
+			.bg{
+				background: url(../img/grey_bg.png);
+				
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			// height: 700px;
+			.intro_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.intro{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+		.services{
+			.bg{
+				background: url(../img/black_bg.jpg);
+				background-size: cover;
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			//height: $servHight;
+			.services_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.services{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					.fst,.snd{
+						.flex_container{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+						.icon_border{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 234px;
+							height: 234px;
+							border: 3px white solid;
+							border-radius:50%;
+							-moz-border-radius:50%;
+							-webkit-border-radius:50%;
+						}
+						.head{
+							margin-top: 20px;
+						}
+						font-size: $sizeText;
+						font-family: $fontText;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			
+			
+		}
+
+		.vr{
+			background: url(../img/captain_bridge-min.png) center;
+			background-size: cover;
+			height: 120vh;  
+			.vr_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.vr{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		._360{
+			
+			background-size: cover;
+			
+			._360_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				._360{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		.clients{
+			background: url(../img/black_bg.jpg);
+			background-size: cover;
+			height: auto;
+			.clients_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.clients{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 90px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			.banner{
+				
+				.bg_container{
+					.bg{
+						.head_container{
+							.head{
+								background: rgba(255,255,255,0.13);
+								padding: 9px 0;
+								font-family: 'RalewayMedium', sans-serif;
+								font-size: $sizeDiscr;
+								span{
+									font-family: 'RalewayExtraBold', sans-serif;
+								}
+								color: #fff;
+							}
+
+							width: 100%;
+							text-align: center;
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: flex-start;
+						width: 100%;
+						height: 252px;
+						
+						background-repeat: no-repeat !important;
+						background-size: cover !important;
+						
+					}
+					.ph_1{
+						background: url(../img/knowledgeble_ship-min.png);
+					}
+					.ph_2{
+						background: url(../img/and_finally-min.png);
+						
+					}
+					.ph_3{
+						background: url(../img/Inventive_naval_architects-min.png);
+					}
+					.ph_4{
+						background: url(../img/creative_designers-min.png);
+					}
+					.ph_5{
+						background: url(../img/enduring_project_managers-min.png);
+					}
+					.ph_6{
+						background: url(../img/competitive_broc-min.png);
+					}
+					padding: 0;
+				}
+				margin-bottom: 180px;
+				font-size: $sizeText;
+				font-family: $fontText;
+			}
+		}
+
+		.who_we_are{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.photo_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.who_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.who{
+					.head{
+						margin-top: 10px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					} 
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					padding-top: 90px;
+					margin-top: 15px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+
+		.contact_us{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.contact_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.contact{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 80px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeForm;
+						font-family: $fontHeader;
+						a{
+							color: #000;
+						}
+						.mail{
+							margin-bottom: 20px;
+						}
+						form{
+							input{
+								width: 374px;
+								height: 42px;
+								margin-bottom: 14px;
+								padding-bottom: 13px;
+								padding-top: 10px;
+								padding-left: 10px;
+								border: 1px #000 solid;
+								font-family: $fontHeader;
+								font-size: $sizeForm;
+								color: #a5a5a5;
+								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+									font-family: $fontHeader;
+									font-size: 24px;
+									color: #a5a5a5;
+								}
+								&::-moz-placeholder { /* Firefox 19+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-ms-input-placeholder { /* IE 10+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-moz-placeholder { /* Firefox 18- */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+							}
+							.textarea{
+								padding-top: 10px;
+								height: 180px;
+								padding-bottom: 150px;
+							}
+							.submit_container{
+								display: flex;
+								justify-content: flex-end;
+								.submit{
+									height: 42px;
+									width: 190px;
+									background: #2f2e2e;
+									color: #fff;
+									padding: 0px;		
+								}
+							}
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+	}
+
+	body header .main .parallax-window .facebook-container {
+		height: calc(100% - 450px);
+
+	}
+
+	.watermark{
+		font-size: 8px !important;
+	}
+
+	body .contact_us .contact_container .contact .body form input {
+		width: 250px;
+
+	}
+
+	body header .black_row {
+		height: 50px;
+	}
+
+	body header .main {
+		padding-top: 50px;
+	}
+
+	body header .black_row nav {
+		display: block !important;
+		margin-top: 0px !important;
+	}
+
+	.nva{
+		margin-top: 0 !important;
+	}
+
+	body .contact_us .contact_container .contact .phone {
+		margin-bottom: 20px;
+	}
+
+	body .contact_us .contact_container .contact .body form .submit_container{
+		justify-content: center;
+	}
+	
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	$sizeDiscr: 16px;
+	$sizeLogo: 60px;
+	$sizeNav: 13px;
+	$sizeForm: 20px;
+
+	$sizeHeader: 27px;
+	$sizeText: 18px;
+	$sizeClients: 18px;
+
+	$fontHeader: Tahoma, sans-serif;
+	$fontText: "BrutalTypeLight", sans-serif;
+	$fontBoldText: "BrutalTypeBold", sans-serif;
+	$fontClients: "RalewayMedium", sans-serif;
+	$fontBoldClients: "RalewayExtraBold", sans-serif;
+	
+	body header .main .parallax-window .facebook-container {
+		height: calc(100% - 310px);
+
+	}
+
+	.watermark{
+		font-size: 8px !important;
+	}
+
+	body{
+
+		header {
+			.black_row{
+				border: 0;
+				border-radius: 0;
+				z-index: 1;
+				//overflow: hidden;
+				position: fixed; /* Set the navbar to fixed position */
+				top: 0; /* Position the navbar at the top of the page */
+				width: 100%; /* Full width */
+				nav{
+					display: flex;
+					justify-content: center;
+					margin-top: 23px;
+					.contacts{
+	                    display: none;       
+	                }
+				}
+				.nva{
+					
+					
+					li {
+						a {
+							font-family: $fontHeader;
+							font-size: $sizeNav;
+							color: #fff;
+						}
+					}
+
+				}
+				.nav{
+					background: #2F2E2E;
+				}
+				background: #2f2e2e;
+				height: 107px;
+			}
+
+			.main{
+				padding-top: 105px;
+				min-height: 614px;
+				.parallax-window{
+					background: top top;
+					min-height: 614px;
+					//height: 500px;
+					.logo_names {
+						.logo{
+							font-family: "OpenSansCondBold", sans-serif;
+							font-size: $sizeLogo;
+							color: #fff;
+						}
+						.discriprion{
+							font-family: "OpenSansCondBold", sans-serif;
+							color: #fff;
+							font-size: $sizeDiscr;
+							text-shadow: 2px 2px 11px #000;
+						}
+						
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						
+					}
+				}
+				text-align: center;
+				
+				
+			}
+			
+		}
+
+		.intruduction{
+			.bg{
+				background: url(../img/grey_bg.png);
+				
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			// height: 700px;
+			.intro_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.intro{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+					}
+
+		.services{
+			.bg{
+				background: url(../img/black_bg.jpg);
+				background-size: cover;
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			//height: $servHight;
+			.services_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.services{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					.fst,.snd{
+						.flex_container{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+						.icon_border{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 234px;
+							height: 234px;
+							border: 3px white solid;
+							border-radius:50%;
+							-moz-border-radius:50%;
+							-webkit-border-radius:50%;
+						}
+						.head{
+							margin-top: 20px;
+						}
+						font-size: $sizeText;
+						font-family: $fontText;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+						
+		}
+
+		.vr{
+			background: url(../img/captain_bridge-min.png) center;
+			background-size: cover;
+
+			.vr_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.vr{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		._360{
+			
+			background-size: cover;
+			
+			._360_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				._360{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		.clients{
+			background: url(../img/black_bg.jpg);
+			background-size: cover;
+			height: auto;
+			.clients_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.clients{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 90px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			.banner{
+				
+				.bg_container{
+					.bg{
+						.head_container{
+							.head{
+								background: rgba(255,255,255,0.13);
+								padding: 9px 0;
+								font-family: 'RalewayMedium', sans-serif;
+								font-size: $sizeDiscr;
+								span{
+									font-family: 'RalewayExtraBold', sans-serif;
+								}
+								color: #fff;
+							}
+
+							width: 100%;
+							text-align: center;
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: flex-start;
+						width: 100%;
+						height: 252px;
+						
+						background-repeat: no-repeat !important;
+						background-size: cover !important;
+						
+					}
+					.ph_1{
+						background: url(../img/knowledgeble_ship-min.png);
+					}
+					.ph_2{
+						background: url(../img/and_finally-min.png);
+						
+					}
+					.ph_3{
+						background: url(../img/Inventive_naval_architects-min.png);
+					}
+					.ph_4{
+						background: url(../img/creative_designers-min.png);
+					}
+					.ph_5{
+						background: url(../img/enduring_project_managers-min.png);
+					}
+					.ph_6{
+						background: url(../img/competitive_broc-min.png);
+					}
+					padding: 0;
+				}
+				margin-bottom: 180px;
+				font-size: $sizeText;
+				font-family: $fontText;
+			}
+		}
+
+		.who_we_are{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.photo_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.who_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.who{
+					.head{
+						margin-top: 10px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					} 
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					padding-top: 90px;
+					margin-top: 15px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+
+		.contact_us{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.contact_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.contact{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 80px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeForm;
+						font-family: $fontHeader;
+						a{
+							color: #000;
+						}
+						.mail{
+							margin-bottom: 20px;
+						}
+						form{
+							input{
+								width: 374px;
+								height: 42px;
+								margin-bottom: 14px;
+								padding-bottom: 13px;
+								padding-top: 10px;
+								padding-left: 10px;
+								border: 1px #000 solid;
+								font-family: $fontHeader;
+								font-size: $sizeForm;
+								color: #a5a5a5;
+								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+									font-family: $fontHeader;
+									font-size: 24px;
+									color: #a5a5a5;
+								}
+								&::-moz-placeholder { /* Firefox 19+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-ms-input-placeholder { /* IE 10+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-moz-placeholder { /* Firefox 18- */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+							}
+							.textarea{
+								padding-top: 10px;
+								height: 180px;
+								padding-bottom: 150px;
+							}
+							.submit_container{
+								display: flex;
+								justify-content: flex-end;
+								.submit{
+									height: 42px;
+									width: 190px;
+									background: #2f2e2e;
+									color: #fff;
+									padding: 0px;		
+								}
+							}
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+	}
+	
+	body .contact_us .contact_container .contact .body form input {
+		width: 300px;
+
+	}
+
+	body header .black_row {
+		height: 50px;
+	}
+
+	body header .main {
+		padding-top: 50px;
+	}
+	
+	body header .black_row nav {
+		display: block !important;
+		margin-top: 0px !important;
+	}
+
+	.nva{
+		margin-top: 0 !important;
+	}
+	
+	body .contact_us .contact_container .contact .phone {
+		margin-bottom: 20px;
+	}
+
+	body .contact_us .contact_container .contact .body form .submit_container{
+		justify-content: center;
+	}
+	
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	
+	$sizeDiscr: 16px;
+	$sizeLogo: 60px;
+	$sizeNav: 13px;
+	$sizeForm: 20px;
+
+	$sizeHeader: 24px;
+	$sizeText: 16px;
+	$sizeClients: 18px;
+
+	$fontHeader: Tahoma, sans-serif;
+	$fontText: "BrutalTypeLight", sans-serif;
+	$fontBoldText: "BrutalTypeBold", sans-serif;
+	$fontClients: "RalewayMedium", sans-serif;
+	$fontBoldClients: "RalewayExtraBold", sans-serif;
+	
+	.services{
+		.snd{
+			margin-top: 50px;
+		}
+	}
+
+	body{
+
+		header {
+			.black_row{
+				border: 0;
+				border-radius: 0;
+				z-index: 1;
+				//overflow: hidden;
+				position: fixed; /* Set the navbar to fixed position */
+				top: 0; /* Position the navbar at the top of the page */
+				width: 100%; /* Full width */
+				nav{
+					display: flex;
+					justify-content: center;
+					margin-top: 23px;
+					.contacts{
+	                    display: none;       
+	                }
+				}
+				.nva{
+					
+					
+					li {
+						a {
+							font-family: $fontHeader;
+							font-size: $sizeNav;
+							color: #fff;
+						}
+					}
+
+				}
+				.nav{
+					background: #2F2E2E;
+				}
+				background: #2f2e2e;
+				height: 107px;
+			}
+
+			.main{
+				padding-top: 105px;
+				min-height: 614px;
+				.parallax-window{
+					background: top top;
+					min-height: 614px;
+					//height: 500px;
+					.logo_names {
+						.logo{
+							font-family: "OpenSansCondBold", sans-serif;
+							font-size: $sizeLogo;
+							color: #fff;
+						}
+						.discriprion{
+							font-family: "OpenSansCondBold", sans-serif;
+							color: #fff;
+							font-size: $sizeDiscr;
+							text-shadow: 2px 2px 11px #000;
+						}
+						
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						
+					}
+				}
+				text-align: center;
+				
+				
+			}
+			
+		}
+
+		.intruduction{
+			.bg{
+				background: url(../img/grey_bg.png);
+				
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			// height: 700px;
+			.intro_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.intro{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+		
+		}
+
+		.services{
+			.bg{
+				background: url(../img/black_bg.jpg);
+				background-size: cover;
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			//height: $servHight;
+			.services_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.services{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					.fst,.snd{
+						.flex_container{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+						.icon_border{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 234px;
+							height: 234px;
+							border: 3px white solid;
+							border-radius:50%;
+							-moz-border-radius:50%;
+							-webkit-border-radius:50%;
+						}
+						.head{
+							margin-top: 20px;
+						}
+						font-size: $sizeText;
+						font-family: $fontText;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+		
+			
+		}
+
+		.vr{
+			background: url(../img/captain_bridge-min.png) center;
+			background-size: cover;
+			
+			.vr_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.vr{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		._360{
+			
+			background-size: cover;
+			
+			._360_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				._360{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		.clients{
+			background: url(../img/black_bg.jpg);
+			background-size: cover;
+			height: auto;
+			.clients_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.clients{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 90px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			.banner{
+				
+				.bg_container{
+					.bg{
+						.head_container{
+							.head{
+								background: rgba(255,255,255,0.13);
+								padding: 9px 0;
+								font-family: 'RalewayMedium', sans-serif;
+								font-size: $sizeDiscr;
+								span{
+									font-family: 'RalewayExtraBold', sans-serif;
+								}
+								color: #fff;
+							}
+
+							width: 100%;
+							text-align: center;
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: flex-start;
+						width: 100%;
+						height: 252px;
+						
+						background-repeat: no-repeat !important;
+						background-size: cover !important;
+						
+					}
+					.ph_1{
+						background: url(../img/knowledgeble_ship-min.png);
+					}
+					.ph_2{
+						background: url(../img/and_finally-min.png);
+						
+					}
+					.ph_3{
+						background: url(../img/Inventive_naval_architects-min.png);
+					}
+					.ph_4{
+						background: url(../img/creative_designers-min.png);
+					}
+					.ph_5{
+						background: url(../img/enduring_project_managers-min.png);
+					}
+					.ph_6{
+						background: url(../img/competitive_broc-min.png);
+					}
+					padding: 0;
+				}
+				margin-bottom: 180px;
+				font-size: $sizeText;
+				font-family: $fontText;
+			}
+		}
+
+		.who_we_are{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.photo_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.who_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.who{
+					.head{
+						margin-top: 10px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					} 
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					padding-top: 90px;
+					margin-top: 15px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+
+		.contact_us{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.contact_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.contact{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 80px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeForm;
+						font-family: $fontHeader;
+						a{
+							color: #000;
+						}
+						.mail{
+							margin-bottom: 20px;
+						}
+						form{
+							input{
+								width: 374px;
+								height: 42px;
+								margin-bottom: 14px;
+								padding-bottom: 13px;
+								padding-top: 10px;
+								padding-left: 10px;
+								border: 1px #000 solid;
+								font-family: $fontHeader;
+								font-size: $sizeForm;
+								color: #a5a5a5;
+								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+									font-family: $fontHeader;
+									font-size: 24px;
+									color: #a5a5a5;
+								}
+								&::-moz-placeholder { /* Firefox 19+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-ms-input-placeholder { /* IE 10+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-moz-placeholder { /* Firefox 18- */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+							}
+							.textarea{
+								padding-top: 10px;
+								height: 180px;
+								padding-bottom: 150px;
+							}
+							.submit_container{
+								display: flex;
+								justify-content: flex-end;
+								.submit{
+									height: 42px;
+									width: 190px;
+									background: #2f2e2e;
+									color: #fff;
+									padding: 0px;		
+								}
+							}
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+	}
+	
+	body header .black_row {
+		height: 50px;
+	}
+
+	body header .main {
+		padding-top: 50px;
+	}
+	
+	body header .black_row nav {
+		display: block !important;
+		margin-top: 0px !important;
+	}
+
+	.nva{
+		margin-top: 0 !important;
+	}
+
+	body .contact_us .contact_container .contact .phone {
+		margin-bottom: 20px;
+	}
+
+	body .contact_us .contact_container .contact .body form .submit_container{
+		justify-content: center;
+	}
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+
+	$sizeDiscr: 16px;
+	$sizeLogo: 60px;
+	$sizeNav: 13px;
+	$sizeForm: 20px;
+
+	$sizeHeader: 27px;
+	$sizeText: 18px;
+	$sizeClients: 18px;
+
+	$fontHeader: Tahoma, sans-serif;
+	$fontText: "BrutalTypeLight", sans-serif;
+	$fontBoldText: "BrutalTypeBold", sans-serif;
+	$fontClients: "RalewayMedium", sans-serif;
+	$fontBoldClients: "RalewayExtraBold", sans-serif;
+	
+	.services{
+		.snd{
+			margin-top: 50px;
+		}
+	}
+
+	body{
+
+		header {
+			.black_row{
+				border: 0;
+				border-radius: 0;
+				z-index: 1;
+				//overflow: hidden;
+				position: fixed; /* Set the navbar to fixed position */
+				top: 0; /* Position the navbar at the top of the page */
+				width: 100%; /* Full width */
+				nav{
+					display: flex;
+					justify-content: flex-start;
+					margin-top: 23px;
+				}
+				.nva{
+					
+					
+					li {
+						a {
+							font-family: $fontHeader;
+							font-size: $sizeNav;
+							color: #fff;
+						}
+					}
+
+				}
+				.nav{
+					background: #2F2E2E;
+				}
+				background: #2f2e2e;
+				height: 107px;
+			}
+
+			.main{
+				padding-top: 105px;
+				min-height: 614px;
+				.parallax-window{
+					background: top top;
+					min-height: 614px;
+					//height: 500px;
+					.logo_names {
+						.logo{
+							font-family: "OpenSansCondBold", sans-serif;
+							font-size: $sizeLogo;
+							color: #fff;
+						}
+						.discriprion{
+							font-family: "OpenSansCondBold", sans-serif;
+							color: #fff;
+							font-size: $sizeDiscr;
+							text-shadow: 2px 2px 11px #000;
+						}
+						
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						
+					}
+				}
+				text-align: center;
+				
+				
+			}
+			
+		}
+
+		.intruduction{
+			.bg{
+				background: url(../img/grey_bg.png);
+				
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			// height: 700px;
+			.intro_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.intro{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+		.services{
+			.bg{
+				background: url(../img/black_bg.jpg);
+				background-size: cover;
+				height: auto;
+				padding-bottom: 120px;
+			}
+			
+			//height: $servHight;
+			.services_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.services{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					.fst,.snd{
+						.flex_container{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+						.icon_border{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 234px;
+							height: 234px;
+							border: 3px white solid;
+							border-radius:50%;
+							-moz-border-radius:50%;
+							-webkit-border-radius:50%;
+						}
+						.head{
+							margin-top: 20px;
+						}
+						font-size: $sizeText;
+						font-family: $fontText;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			
+			
+		}
+
+		.vr{
+			background: url(../img/captain_bridge-min.png) center;
+			background-size: cover;
+			
+			.vr_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.vr{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		._360{
+			
+			background-size: cover;
+			
+			._360_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				._360{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		.clients{
+			background: url(../img/black_bg.jpg);
+			background-size: cover;
+			height: auto;
+			.clients_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.clients{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 90px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			.banner{
+				
+				.bg_container{
+					.bg{
+						.head_container{
+							.head{
+								background: rgba(255,255,255,0.13);
+								padding: 9px 0;
+								font-family: 'RalewayMedium', sans-serif;
+								font-size: $sizeDiscr;
+								span{
+									font-family: 'RalewayExtraBold', sans-serif;
+								}
+								color: #fff;
+							}
+
+							width: 100%;
+							text-align: center;
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: flex-start;
+						width: 100%;
+						height: 252px;
+						
+						background-repeat: no-repeat !important;
+						background-size: cover !important;
+						
+					}
+					.ph_1{
+						background: url(../img/knowledgeble_ship-min.png);
+					}
+					.ph_2{
+						background: url(../img/and_finally-min.png);
+						
+					}
+					.ph_3{
+						background: url(../img/Inventive_naval_architects-min.png);
+					}
+					.ph_4{
+						background: url(../img/creative_designers-min.png);
+					}
+					.ph_5{
+						background: url(../img/enduring_project_managers-min.png);
+					}
+					.ph_6{
+						background: url(../img/competitive_broc-min.png);
+					}
+					padding: 0;
+				}
+				margin-bottom: 180px;
+				font-size: $sizeText;
+				font-family: $fontText;
+			}
+		}
+
+		.who_we_are{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.photo_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.who_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.who{
+					.head{
+						margin-top: 10px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					} 
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					padding-top: 90px;
+					margin-top: 15px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+
+		.contact_us{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.contact_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.contact{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 80px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeForm;
+						font-family: $fontHeader;
+						a{
+							color: #000;
+						}
+						.mail{
+							margin-bottom: 20px;
+						}
+						form{
+							input{
+								width: 374px;
+								height: 42px;
+								margin-bottom: 14px;
+								padding-bottom: 13px;
+								padding-top: 10px;
+								padding-left: 10px;
+								border: 1px #000 solid;
+								font-family: $fontHeader;
+								font-size: $sizeForm;
+								color: #a5a5a5;
+								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+									font-family: $fontHeader;
+									font-size: 24px;
+									color: #a5a5a5;
+								}
+								&::-moz-placeholder { /* Firefox 19+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-ms-input-placeholder { /* IE 10+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-moz-placeholder { /* Firefox 18- */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+							}
+							.textarea{
+								padding-top: 10px;
+								height: 180px;
+								padding-bottom: 150px;
+							}
+							.submit_container{
+								display: flex;
+								justify-content: flex-end;
+								.submit{
+									height: 42px;
+									width: 190px;
+									background: #2f2e2e;
+									color: #fff;
+									padding: 0px;		
+								}
+							}
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+	}
+
+	body .contact_us .contact_container .contact .body form .submit_container{
+		justify-content: center;
+	}
+	body .contact_us .contact_container .contact .phone{
+		margin-bottom: 20px;
+	}
+
+}
+
+@media(min-width:993px) and (max-width:8000px) {
+	$sizeDiscr: 16px;
+	$sizeLogo: 60px;
+	$sizeNav: 13px;
+	$sizeForm: 20px;
+
+	$sizeHeader: 27px;
+
+	$sizeText: 18px;
+
+	$sizeClients: 18px;
+
+	$fontHeader: Tahoma, sans-serif;
+	$fontText: "BrutalTypeLight", sans-serif;
+	$fontBoldText: "BrutalTypeBold", sans-serif;
+	$fontClients: "RalewayMedium", sans-serif;
+	$fontBoldClients: "RalewayExtraBold", sans-serif;
+	
+
+
+	body .intruduction .bg {
+	    padding-bottom: 123px;
+	}
+
+	$servHight: 820px;
+
+	body{
+
+		header {
+			.black_row{
+				
+				.nva{
+					
+					
+					li {
+						a {
+							font-family: $fontHeader;
+							font-size: $sizeNav;
+							color: #fff;
+						}
+					}
+
+				}
+				
+			}
+
+			.main{
+				padding-top: 105px;
+				min-height: 614px;
+				.parallax-window{
+					background: top top;
+					min-height: 614px;
+					//height: 500px;
+					.logo_names {
+						.logo{
+							font-family: "OpenSansCondBold", sans-serif;
+							font-size: $sizeLogo;
+							color: #fff;
+						}
+						.discriprion{
+							font-family: "OpenSansCondBold", sans-serif;
+							color: #fff;
+							font-size: $sizeDiscr;
+							text-shadow: 2px 2px 11px #000;
+						}
+						
+						display: flex;
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						
+					}
+				}
+				text-align: center;
+				
+				
+			}
+			
+		}
+
+		.intruduction{
+			
+			// height: 700px;
+			.intro_container{
+				
+				.intro{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					
+				}
+			}
+			
+		}
+
+		.services{
+			.bg{
+				
+				padding-bottom: 120px;
+			}
+			
+			//height: $servHight;
+			.services_container{
+				
+				.services{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			
+			
+		}
+
+		.vr{
+			background: url(../img/captain_bridge-min.png) center;
+			background-size: cover;
+		
+			.vr_container{
+				
+				.vr{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		._360{
+			
+			background-size: cover;
+			
+			._360_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				._360{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+
+					}
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: 547px;
+				}
+			}
+		}
+
+		.clients{
+			background: url(../img/black_bg.jpg);
+			background-size: cover;
+			height: auto;
+			.clients_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.clients{
+					.head{
+						margin-bottom: 22px;
+						color: white;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: white;
+							margin-bottom: 90px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						color: #fff;
+					}
+					
+					background: none;
+					text-align: center;
+					margin-top: 75px;
+					width: 876px;
+					height: auto;
+				}
+			}
+			.banner{
+				
+				.bg_container{
+					.bg{
+						.head_container{
+							.head{
+								background: rgba(255,255,255,0.13);
+								padding: 9px 0;
+								font-family: 'RalewayMedium', sans-serif;
+								font-size: $sizeDiscr;
+								span{
+									font-family: 'RalewayExtraBold', sans-serif;
+								}
+								color: #fff;
+							}
+
+							width: 100%;
+							text-align: center;
+						}
+
+						display: flex;
+						justify-content: center;
+						align-items: flex-start;
+						width: 100%;
+						height: 252px;
+						
+						background-repeat: no-repeat !important;
+						background-size: cover !important;
+						
+					}
+					.ph_1{
+						background: url(../img/knowledgeble_ship-min.png);
+					}
+					.ph_2{
+						background: url(../img/and_finally-min.png);
+						
+					}
+					.ph_3{
+						background: url(../img/Inventive_naval_architects-min.png);
+					}
+					.ph_4{
+						background: url(../img/creative_designers-min.png);
+					}
+					.ph_5{
+						background: url(../img/enduring_project_managers-min.png);
+					}
+					.ph_6{
+						background: url(../img/competitive_broc-min.png);
+					}
+					padding: 0;
+				}
+				margin-bottom: 180px;
+				font-size: $sizeText;
+				font-family: $fontText;
+			}
+		}
+
+		.who_we_are{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.photo_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+			.who_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.who{
+					.head{
+						margin-top: 10px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					} 
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 50px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeText;
+						font-family: $fontText;
+						span{
+							font-family: $fontBoldText;
+						}
+					}
+					text-align: center;
+					padding-top: 90px;
+					margin-top: 15px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+
+		.contact_us{
+			
+			height: auto;
+			padding-bottom: 70px;
+			.contact_container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.contact{
+					.head{
+						margin-top: 55px;
+						margin-bottom: 22px;
+						font-family: $fontHeader;
+						font-weight: bold;
+						font-size: $sizeHeader;
+					}
+					.flex-container {
+						.black_row{
+							width: 105px;
+							height: 9px;
+							background: black;
+							margin-bottom: 80px;
+						}
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.body{
+						font-size: $sizeForm;
+						font-family: $fontHeader;
+						a{
+							color: #000;
+						}
+						.mail{
+							margin-bottom: 20px;
+						}
+						form{
+							input{
+								width: 374px;
+								height: 42px;
+								margin-bottom: 14px;
+								padding-bottom: 13px;
+								padding-top: 10px;
+								padding-left: 10px;
+								border: 1px #000 solid;
+								font-family: $fontHeader;
+								font-size: $sizeForm;
+								color: #a5a5a5;
+								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+									font-family: $fontHeader;
+									font-size: 24px;
+									color: #a5a5a5;
+								}
+								&::-moz-placeholder { /* Firefox 19+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-ms-input-placeholder { /* IE 10+ */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+								&:-moz-placeholder { /* Firefox 18- */
+									font-family: $fontHeader;
+									font-size: $sizeForm;
+									color: #a5a5a5;
+								}
+							}
+							.textarea{
+								padding-top: 10px;
+								height: 180px;
+								padding-bottom: 150px;
+							}
+							.submit_container{
+								display: flex;
+								justify-content: flex-end;
+								.submit{
+									height: 42px;
+									width: 190px;
+									background: #2f2e2e;
+									color: #fff;
+									padding: 0px;		
+								}
+							}
+						}
+					}
+					text-align: center;
+					margin-top: 75px;
+					background: #fff;
+					width: 876px;
+					height: auto;
+					padding-bottom: 60px;
+				}
+			}
+			
+		}
+
+	}
+
+}
+	
+
+
+
