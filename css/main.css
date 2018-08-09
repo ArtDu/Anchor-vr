@@ -102,13 +102,11 @@ body .intruduction .bg {
   background: url(../img/grey_bg.png);
   height: auto;
   padding-bottom: 120px; }
-body .intruduction .bg table {
-    margin: auto ;
-}
-body .intruduction .bg table td {
-    padding: 5px;
-    border: 2px solid black;
-}
+  body .intruduction .bg table {
+    margin: auto; }
+    body .intruduction .bg table td {
+      padding: 5px;
+      border: 2px solid black; }
 body .intruduction .intro_container {
   display: flex;
   justify-content: center;
@@ -439,7 +437,33 @@ body .who_we_are {
           font-family: "BrutalTypeLight", sans-serif; }
   body .who_we_are .parallax-window {
     min-height: 330px; }
-body .contact_us {
+body .cookie_disc {
+  display: none;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  color: #404040;
+  background-color: #efefef;
+  padding: 1.2em;
+  border-radius: 5px;
+  max-width: 24em; }
+  body .cookie_disc .cookie_button {
+    color: white;
+    background-color: #8ec760;
+    border-color: transparent;
+    display: block;
+    padding: .4em .8em;
+    font-size: .9em;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    white-space: nowrap;
+    width: 10em; }
+    body .cookie_disc .cookie_button:hover {
+      opacity: 0.8;
+      cursor: pointer; }
+body .contact_us { 
   height: auto;
   padding-bottom: 70px; }
   body .contact_us .contact_container {

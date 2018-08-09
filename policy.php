@@ -50,16 +50,16 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <nav>
 
-                <nav id="menu">
                     <ul class="nav nva navbar-nav">
 
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#intruduction">OUR VISION</a></li>
-                        <li><a href="#services">SERVICES</a></li>
-                        <li><a href="#clients">OUR CLIENTS</a></li>
-                        <li><a href="#who_we_are">WHO WE ARE</a></li>
-                        <li><a href="#contact_us">CONTACT US</a></li>
+                        <li><a href="index.php#home">HOME</a></li>
+                        <li><a href="index.php#intruduction">OUR VISION</a></li>
+                        <li><a href="index.php#services">SERVICES</a></li>
+                        <li><a href="index.php#clients">OUR CLIENTS</a></li>
+                        <li><a href="index.php#who_we_are">WHO WE ARE</a></li>
+                        <li><a href="index.php#contact_us">CONTACT US</a></li>
                         <hr class="visible-xs-block">
                         <li class="visible-xs-block"><a href="mailto:info@anchor-vr.com">info@anchor-vr.com</a></li>
                         <li class="visible-xs-block"><a href="tel:+79036115607">+7 903 611 5607</a></li>
@@ -319,7 +319,13 @@
     </div>
 </div>
 
-
+<div class="cookie_disc">
+    <div class="text">
+        This website uses cookies. By using this website and continuing navigating, you accept these cookies.
+        <a href="policy.php">Learn more.</a>
+    </div>
+    <div class="cookie_button">Accept</div>
+</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -357,6 +363,7 @@
         });
     });
 </script>
+<script src="js/cookie_disc.js"></script>
 </body>
 
 </html>
