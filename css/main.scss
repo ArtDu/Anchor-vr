@@ -630,21 +630,27 @@ body {
     }
 
     .cookie_disc {
+        text-align: center;
         display: none;
         position: fixed;
-        right: 25px;
-        bottom: 25px;
-        color: rgb(64, 64, 64);
-        background-color: rgb(239, 239, 239);
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        background-color: #454954;
         padding: 1.2em;
-        border-radius: 5px;
-        max-width: 24em;
+        border-radius: 0;
+        width: 100%;
         .cookie_button{
+            a{
+                color: white;
+            }
+            margin: auto;
             color: rgb(255, 255, 255);
-            background-color: rgb(142, 199, 96);
+            background-color: #337AB7;
             border-color: transparent;
             display: block;
             padding: .4em .8em;
+            margin-top: 5px;
             font-size: .9em;
             font-weight: 700;
             border-width: 2px;

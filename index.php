@@ -674,7 +674,14 @@ if(isset($_POST['name'])){
             </div>
         </div>
     </div>
-    
+
+    <div class="cookie_disc">
+        <div class="text">
+            This website uses cookies. By using this website and continuing navigating, you accept these cookies.
+            <a href="policy.php">Learn more.</a>
+        </div>
+        <div class="cookie_button">Accept</div>
+    </div>
 
 
 
@@ -713,6 +720,7 @@ if(isset($_POST['name'])){
         });
     });
     </script>
+    <script src="js/cookie_disc.js"></script>
 </body>
 
 </html>
