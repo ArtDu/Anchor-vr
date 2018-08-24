@@ -650,6 +650,14 @@ body footer .black_row {
             color: #fff;
             padding: 0px; }
 
+#p_cookie-policy .body {
+  height: auto; }
+  #p_cookie-policy .body table {
+    margin: auto; }
+    #p_cookie-policy .body table td {
+      padding: 5px;
+      border: 2px solid black; }
+
 .mybtn {
   right: 25px;
   top: 5px;

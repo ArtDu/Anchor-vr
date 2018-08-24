@@ -765,7 +765,7 @@ body {
             }
         }
     }
-    
+
     .bg_grey{
         background: url(../img/grey_bg.png);
     }
@@ -900,6 +900,26 @@ body {
     }
 
     margin: 20px auto;
+}
+
+#p_cookie-policy{
+  .head{
+
+  }
+  .body{
+
+
+    table{
+      margin: auto;
+      td {
+        padding: 5px;
+        border: 2px solid black;
+      }
+    }
+    height: auto;
+    //padding-bottom: 120px;
+
+  }
 }
 
 .mybtn{

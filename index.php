@@ -675,10 +675,101 @@ if(isset($_POST['name'])){
         </div>
     </div>
 
+    <div id="p_cookie-policy" class="contact_us popup mfp-hide ">
+        <div class="container">
+            <div class="row">
+                <div class="contact_container col-md-offset-1 col-md-10">
+                    <div class="contact">
+                        <div class="abs row">
+                            <div class="head col-md-4 col-md-offset-4">Cookies Policy</div>
+                            <button class=" mfp-close mybtn"  type="button" title="Закрыть (Esc)">×</button>
+                        </div>
+                        <div class="row">
+                            <div class="flex-container col-md-6 col-md-offset-3">
+                                <div class="black_row"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="body col-md-offset-1 col-md-10">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        Our Website uses cookies. Cookies are small text files intended to identify your device
+                                        when you repeatedly visit our Website. Cookies are downloaded by your web browser the first
+                                        time you visit the Website and stored on the hard disk or any other permanent memory of your
+                                        device. Cookies on our Website do not contain any personal data about you. <br/><br/>
+                                        We use cookies only to analyze the Website traffic. <br/><br/>
+                                        There are different categories of cookies: essential cookies, performance cookies,
+                                        functional cookies, etc. Please be informed that we use only performance cookies
+                                        on our Website. This category of cookies collects information about how the Website is used.
+                                        These cookies are specifically designed to improve performance of the Website
+                                        and provide better user experience. <br/><br/>
+                                        The following cookies are used on our Website: <br/><br/>
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p><strong>Co</strong><strong>okie</strong><strong>s</strong></p>
+                                                </td>
+                                                <td >
+                                                    <p><strong>Usage</strong></p>
+                                                </td>
+                                                <td>
+                                                    <p><strong>Lifetime</strong></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>_gat</p>
+                                                </td>
+                                                <td>
+                                                    <p>Allows to throttle the request rate.</p>
+                                                </td>
+                                                <td>
+                                                    <p>1 minute</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>_gid</p>
+                                                </td>
+                                                <td>
+                                                    <p>Allows to distinguish users.</p>
+                                                </td>
+                                                <td>
+                                                    <p>24 hours</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>_ga</p>
+                                                </td>
+                                                <td>
+                                                    <p>Allows to distinguish users.</p>
+                                                </td>
+                                                <td >
+                                                    <p>2 years</p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <br/>
+                                        Our Website does not use cookies of the third parties.
+                                        <br/><br/>
+                                        You can completely disable cookies in your browser at any time. Please use your browser’s help function to find out how to change these settings.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="cookie_disc">
         <div class="text">
             This website uses cookies. By using this website and continuing navigating, you accept these cookies.
-            <a href="policy.php">Learn more.</a>
+            <a href="#p_cookie-policy" class="popup-content">Learn more.</a>
         </div>
         <div class="cookie_button">Accept</div>
     </div>
