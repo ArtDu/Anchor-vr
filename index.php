@@ -681,7 +681,7 @@ if(isset($_POST['name'])){
                 <div class="contact_container col-md-offset-1 col-md-10">
                     <div class="contact">
                         <div class="abs row">
-                            <div class="head col-md-4 col-md-offset-4">Cookies Policy</div>
+                            <div class="head col-md-4 col-md-offset-4">PRIVACY POLICY</div>
                             <button class=" mfp-close mybtn"  type="button" title="Закрыть (Esc)">×</button>
                         </div>
                         <div class="row">
@@ -693,17 +693,106 @@ if(isset($_POST['name'])){
                             <div class="body col-md-offset-1 col-md-10">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        Our Website uses cookies. Cookies are small text files intended to identify your device
-                                        when you repeatedly visit our Website. Cookies are downloaded by your web browser the first
-                                        time you visit the Website and stored on the hard disk or any other permanent memory of your
-                                        device. Cookies on our Website do not contain any personal data about you. <br/><br/>
-                                        We use cookies only to analyze the Website traffic. <br/><br/>
-                                        There are different categories of cookies: essential cookies, performance cookies,
-                                        functional cookies, etc. Please be informed that we use only performance cookies
-                                        on our Website. This category of cookies collects information about how the Website is used.
-                                        These cookies are specifically designed to improve performance of the Website
-                                        and provide better user experience. <br/><br/>
-                                        The following cookies are used on our Website: <br/><br/>
+
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">Please read carefully this <strong>Privacy Policy</strong> to learn how we use your personal data collected through or in connection with our Website. By using feedback forms on the Website or contacting us by phone, e-mail and any other means you agree to the terms and conditions described in this <strong>Privacy Policy</strong>.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ;">First, what type of personal data do we collect?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">In the course of using our Website you can be asked to fill in feedback forms with the following information: your name, e-mail address, name of the company you represent. You may also give us this information by corresponding with us by phone, email or any other means.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">When you use our Website we may also collect some technical information about you such as an Internet Protocol (IP) address, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform as well as information about your visit to our Website, including the website you came from before landing on our Website and the website you went to from our Website, including date and time; page response times, download errors, length of visits to certain pages, page interaction information such as scrolling, clicks, and mouse-overs, and methods used to browse away from the page.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Second, what are the purposes of processing your personal data we collect?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">We process your personal data for the following purposes:</span></p>
+                                        <ul>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">to provide you with information in response to your requests you have submitted to us using feedback forms on our Website, e-mail or phone, including information about our products and services;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">to perform our legal obligations arising from a contract entered into between you and us or in order to take steps at your request prior to entering into a contract.</span></li>
+                                        </ul>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Third, what are the legal grounds for processing?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">There are the following legal grounds for processing of your personal data:</span></p>
+                                        <ul>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">processing is necessary to perform our obligations arising from a contract entered into between you and us or in order to take steps at your request prior to entering into a contract;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">processing is necessary to comply with our legal obligations in accordance with applicable law;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">in specific cases we may ask your consent for processing of your personal data.</span></li>
+                                        </ul>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Fourth, with whom do we share your information?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">We may transfer your personal data to the third parties solely to achieve the purposes indicated above. Such third parties may include our employees as well as partners</span><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;"> engaged in delivering our products and services to you. We also may transfer your personal data to any national or international public bodies in case we are required to transfer your personal data by applicable law at their request.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Fifth, how long will your personal data be stored?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">Your personal data will be stored as long as it is necessary to achieve the purposes for which the personal data have been collected or to comply with legal requirements.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Sixth, what rights do you have with respect to your personal data?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">If it is provided by applicable law and suitable for a specific situation, you have the right to:</span></p>
+                                        <ul>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">request access to your personal data; </span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">request rectification or erasure of your personal data;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">request restriction of processing of your personal data; </span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">object to processing of your personal data; </span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">data portability; </span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">withdraw your consent to processing of your personal data at any time; </span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">lodge a complaint with a competent data protection authority. </span></li>
+                                        </ul>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">&nbsp;</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Seventh, how can you exercise your rights?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ;">To exercise the above rights you can contact us using the feedback form on our Website, via e-mail or phone. Please see below our contact details:</span></p>
+                                        <p style="margin-bottom: .0001pt; line-height: normal; vertical-align: baseline;"><em><span style=" ;">Address: 3 Slavyansky Bulvar, 121352 Moscow, Russia</span></em></p>
+                                        <p style="margin-bottom: .0001pt; line-height: normal; vertical-align: baseline;"><em><span style=" ;">E-mail: info@anchor-vr.com</span></em></p>
+                                        <p style="margin-bottom: 6.0pt; line-height: normal; vertical-align: baseline;"><em><span style=" ;">Phone: +7 903 611 5607</span></em></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Eighth, where and how do we store and process your personal data?</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">The personal data we collect from you are transferred to, stored and processed in the Russian Federation, which is a jurisdiction outside the European Economic Area. Please note that risks relating to transfer of your personal data to the Russian Federation are insignificant due to the following reasons:</span></p>
+                                        <ul>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">We collect only those personal data, which are necessary to contact you in the course of performing a contract entered into between you and us or taking steps prior to entering into a contract at your request, including providing you with information about our products and services. The list of personal data we collect is very short and usually include your name, e-mail, phone number, name of the company you represent. You are free to provide us or not with your personal data in the feedback forms on our Website, by e-mail, phone and any other means;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Transfer is carried out not on a regular basis and concerns only a limited number of data subjects;</span></li>
+                                            <li style="text-align: justify; text-indent: -17.85pt; line-height: normal; vertical-align: baseline; margin: 0cm 0cm 6.0pt 17.85pt;"><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">We take adequate and sufficient organizational and technical measures to protect your privacy.</span></li>
+                                        </ul>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">Unfortunately, transmission of data via the Internet is not completely secure, and we cannot guarantee the security of your data transmitted to our Website. Any transmission is at your own risk.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><strong><span style=" ; color: black; border: none windowtext 1.0pt; padding: 0cm;">Ninth, about cookies</span></strong></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">Our Website uses cookies. Cookies are small text files intended to identify your device when you repeatedly visit our Website. Cookies are downloaded by your web browser the first time you visit the Website and stored on the hard disk or any other permanent memory of your device. Cookies on our Website do not contain any personal data about you.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">We use cookies only to analyze the Website traffic. The analysis is carried out with Google Analytics.</span> <span style=" ; color: black;">For more information about Google Analytics please read its privacy policy at https://analytics.google.com.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">There are different categories of cookies: essential cookies, performance cookies, functional cookies, etc. Please be informed that we use only performance cookies on our Website. This category of cookies collects information about how the Website is used. These cookies are specifically designed to improve performance of the Website and provide better user experience.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">The following cookies are used on our Website:</span></p>
+                                        <!--<table style="width: 488.65pt;" width="652">
+                                            <tbody>
+                                            <tr>
+                                                <td style="width: 89.5pt; padding: .75pt .75pt .75pt .75pt;" width="119">
+                                                    <p style="text-align: center; line-height: normal;"><strong><span style=" ;">Co</span></strong><strong><span style=" ;">okie</span></strong><strong><span style=" ;">s</span></strong></p>
+                                                </td>
+                                                <td style="width: 260.75pt; padding: .75pt .75pt .75pt .75pt;" width="348">
+                                                    <p style="text-align: center; line-height: normal;"><strong><span style=" ;">Usage</span></strong></p>
+                                                </td>
+                                                <td style="width: 132.4pt; padding: .75pt .75pt .75pt .75pt;" width="177">
+                                                    <p style="text-align: center; line-height: normal;"><strong><span style=" ;">Lifetime</span></strong></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 89.5pt; padding: .75pt .75pt .75pt .75pt;" width="119">
+                                                    <p style="text-align: center; line-height: normal;"><span style="font-size: 10.0pt;  ;">_ga</span><span style="font-size: 10.0pt;  ;">t</span></p>
+                                                </td>
+                                                <td style="width: 260.75pt; padding: .75pt .75pt .75pt .75pt;" width="348">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">Allows to throttle the request rate.</span></p>
+                                                </td>
+                                                <td style="width: 132.4pt; padding: .75pt .75pt .75pt .75pt;" width="177">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">1 minute</span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 89.5pt; padding: .75pt .75pt .75pt .75pt;" width="119">
+                                                    <p style="text-align: center; line-height: normal;"><span style="font-size: 10.0pt;  ;">_gid</span></p>
+                                                </td>
+                                                <td style="width: 260.75pt; padding: .75pt .75pt .75pt .75pt;" width="348">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">Allows to distinguish users.</span></p>
+                                                </td>
+                                                <td style="width: 132.4pt; padding: .75pt .75pt .75pt .75pt;" width="177">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">24 hours</span></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 89.5pt; padding: .75pt .75pt .75pt .75pt;" width="119">
+                                                    <p style="text-align: center; line-height: normal;"><span style="font-size: 10.0pt;  ;">_ga</span></p>
+                                                </td>
+                                                <td style="width: 260.75pt; padding: .75pt .75pt .75pt .75pt;" width="348">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">Allows to distinguish users.</span></p>
+                                                </td>
+                                                <td style="width: 132.4pt; padding: .75pt .75pt .75pt .75pt;" width="177">
+                                                    <p style="text-align: center; line-height: normal;"><span style=" ;">2 years</span></p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>-->
                                         <table>
                                             <tbody>
                                             <tr>
@@ -752,10 +841,8 @@ if(isset($_POST['name'])){
                                             </tr>
                                             </tbody>
                                         </table>
-                                        <br/>
-                                        Our Website does not use cookies of the third parties.
-                                        <br/><br/>
-                                        You can completely disable cookies in your browser at any time. Please use your browser’s help function to find out how to change these settings.
+                                        <p style="text-align: justify; line-height: normal; vertical-align: baseline; margin: 6.0pt 0cm 6.0pt 0cm;"><span style=" ; color: black;">Our Website does not use cookies of the third parties.</span></p>
+                                        <p style="margin-bottom: 6.0pt; text-align: justify; line-height: normal; vertical-align: baseline;"><span style=" ; color: black;">You can completely disable cookies in your browser at any time. Please use your browser&rsquo;s help function to find out how to change these settings.</span></p>
                                     </div>
                                 </div>
                             </div>

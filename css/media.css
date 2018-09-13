@@ -1,4 +1,8 @@
 @media (min-width: 0px) and (max-width: 320px) {
+  #p_cookie-policy .body {
+    margin-left: 7px;
+    margin-right: 7px; }
+
   .services .snd {
     margin-top: 50px; }
 
@@ -417,6 +421,10 @@
   body .contact_us .contact_container .contact .body form .submit_container {
     justify-content: center; } }
 @media (min-width: 321px) and (max-width: 480px) {
+  #p_cookie-policy .body {
+    margin-left: 7px;
+    margin-right: 7px; }
+
   body header .main .parallax-window .facebook-container {
     height: calc(100% - 310px); }
 
@@ -831,6 +839,10 @@
   body .contact_us .contact_container .contact .body form .submit_container {
     justify-content: center; } }
 @media (min-width: 481px) and (max-width: 768px) {
+  #p_cookie-policy .body {
+    margin-left: 7px;
+    margin-right: 7px; }
+
   .services .snd {
     margin-top: 50px; }
 

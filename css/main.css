@@ -650,7 +650,14 @@ body footer .black_row {
             color: #fff;
             padding: 0px; }
 
+#p_cookie-policy ul, #p_cookie-policy ol {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 15px; }
+#p_cookie-policy .head {
+  font-size: 23px; }
 #p_cookie-policy .body {
+  font-size: 15px;
   height: auto; }
   #p_cookie-policy .body table {
     margin: auto; }
@@ -668,3 +675,5 @@ body footer .black_row {
 
 .opacity {
   opacity: 0; }
+
+/*# sourceMappingURL=main.css.map */
