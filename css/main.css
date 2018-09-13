@@ -649,6 +649,11 @@ body footer .black_row {
             background: #2f2e2e;
             color: #fff;
             padding: 0px; }
+        .popup .contact_container .contact .body #check_policy {
+          width: 15px;
+          height: 15px; } 
+        .popup .contact_container .contact .body .agree {
+          font-size: 15px; }
 
 #p_cookie-policy ul, #p_cookie-policy ol {
   list-style-type: disc;

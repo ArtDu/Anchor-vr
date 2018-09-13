@@ -586,33 +586,33 @@ if(isset($_POST['name'])){
                         <div class="row">
                             <div class="body col-md-offset-1 col-md-10">
                                 <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="row">
-                                            <div class="mail"><a href="mailto:info@anchor-vr.com">info@anchor-vr.com</a></div>
+                                    <form action="index.php?bro=vr" method="post">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="mail"><a href="mailto:info@anchor-vr.com">info@anchor-vr.com</a></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="phone"><a href="tel:+79036115607">+7 903 611 5607</a></div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="phone"><a href="tel:+79036115607">+7 903 611 5607</a></div>
+                                        <div class="col-md-7">
+
+
+                                                <div class="submit_container">
+                                                    <input placeholder="E-mail" required type="email" name="email">
+                                                </div>
+
+                                                <div class="submit_container">
+                                                    <input Value="Order" class="submit" type="submit">
+                                                </div>
+
                                         </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <form action="index.php?bro=vr" method="post">
-                                            <div class="submit_container">
-                                                <input placeholder="Name" required type="text" name="name">
-                                            </div>
-                                            <div class="submit_container">
-                                                <input placeholder="Company" type="text" name="company">
-                                            </div>
-                                            <div class="submit_container">
-                                                <input placeholder="E-mail" required type="email" name="email">
-                                            </div>
-                                            <div class="submit_container">
-                                                <input placeholder="Phone Number" type="tel" name="num">
-                                            </div>
-                                            <div class="submit_container">
-                                                <input Value="Order" class="submit" type="submit">
-                                            </div>
-                                        </form>
-                                    </div>
+
+                                            <input type="checkbox" id="check_policy" name="check_policy"
+                                                   value="check_policy" />
+                                            <label class="agree" for="check_policy">I agree to processing of my personal information in accordance with the Privacy Policy</label>
+
+                                    </form>
                                 </div>
                             </div>
                         </div>

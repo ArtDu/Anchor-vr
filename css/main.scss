@@ -827,6 +827,7 @@ body {
                 align-items: center;
             }
             .body {
+
                 font-size: $sizeForm;
                 font-family: $fontHeader;
                 a {
@@ -888,6 +889,13 @@ body {
                             padding: 0px;
                         }
                     }
+                }
+                #check_policy{
+                  width: 15px;
+                  height: 15px;
+                }
+                .agree{
+                  font-size: 15px;
                 }
             }
             text-align: center;
