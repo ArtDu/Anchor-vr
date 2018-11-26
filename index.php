@@ -4,19 +4,9 @@
 
 require_once "php/vendor/autoload.php";
 
-if(isset($_POST['name'])){
+if(isset($_POST['check_policy'])){
 
     $mail = new PHPMailer;
-
-    $name = filter_var($_POST['name']);
-    $company = filter_var($_POST['company']);
-    $email = filter_var($_POST['email'],FILTER_VALIDATE_EMAIL);
-    $num = filter_var($_POST['num']);
-    if(isset($_POST['text'])) {
-        
-        $text = filter_var($_POST['text']);
-    }
-
 
     //$mail->SMTPDebug = 4;                               // Enable verbose debug output
 
@@ -29,36 +19,51 @@ if(isset($_POST['name'])){
     $mail->Port = 587;                                    // TCP port to connect to
 
     $mail->setFrom('anchor-vr.com', 'anchor');
-    $mail->addAddress('anastasia.yushkova@gmail.com', 'Получатель');     // Add a recipient 
+    $mail->addAddress('anastasia.yushkova@gmail.com', 'Получатель');     // Add a recipient
     $mail->addReplyTo('robot@mail.ru', 'Robot');
-    $mail->addCC('info@anchor-vr.com',"info");
+    $mail->addCC('info@anchor-vr.com',"info"); 
 
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);                                  // Set email format to HTML
 
-    if(!isset($_POST['text'])) {
+
+    $mail->Subject .= 'Письмо с сайта anchor-vr';
+
+    if(isset($_POST['email'])) {
+        $email = filter_var($_POST['email'],FILTER_VALIDATE_EMAIL);
         if($_GET['bro']=="360") {
-            $mail->Body    = "<h1>Order a Brochure(360)</h1>";
+            $mail->Body    = "<h3>Order a Brochure(360)</h3>";
+            $mail->Body    .= "<div>e-mail: $email</div>";
         }
         else {
-            $mail->Body    = "<h1>Order a Brochure(vr)</h1>";
+            $mail->Body    = "<h3>Order a Brochure(vr)</h3>";
+            $mail->Body    .= "<div>e-mail: $email</div>";
         }
     }
     else{
-        $mail->Body    = "<h1>Contact us</h1>";
+
+        $name = filter_var($_POST['name']);
+        $company = filter_var($_POST['company']);
+        $num = filter_var($_POST['num']);
+        if(isset($_POST['text'])) {
+
+            $text = filter_var($_POST['text']);
+        }
+
+        $mail->Body    = "<h3>Contact us</h3>";
+        $mail->Body    .= "<div>от: $name</div>";
+        $mail->Body    .= "<div>company: $company</div>";
+        $mail->Body    .= "<div>number: $num</div>";
+        $mail->AltBody = $name;
+        if(isset($_POST['text'])) {
+            $mail->Body    .= "<div>text: $text</div>";
+        }
     }
 
-    $mail->Subject .= 'Письмо с сайта';
-    $mail->Body    .= "<div>от: $name</div>";
-    $mail->Body    .= "<div>e-mail: $email</div>";
-    $mail->Body    .= "<div>company: $company</div>";
-    $mail->Body    .= "<div>number: $num</div>";
-    $mail->AltBody = $name;
 
 
-    if(isset($_POST['text'])) {
-        $mail->Body    .= "<div>text: $text</div>";
-    }
+
+
     
 
     if($mail->send()){
@@ -229,7 +234,6 @@ if(isset($_POST['name'])){
             </div>
         </div>
     </div>
-
 
     <div id="services" class="services">
         <div class="bg ">
@@ -535,17 +539,31 @@ if(isset($_POST['name'])){
                                                     <input placeholder="Company" type="text" name="company">
                                                 </div>
                                                 <div class="submit_container">
-                                                    <input placeholder="E-mail" required type="email" name="email">
-                                                </div>
-                                                <div class="submit_container">
                                                     <input placeholder="Phone Number" type="tel" name="num">
                                                 </div>
                                                 <div class="submit_container">
                                                     <input class="textarea" placeholder="Text" name="text" id="text">
                                                 </div>
-                                                <div class="submit_container">
-                                                    <input Value="Send" class="submit" type="submit">
+                                                <div class="row">
+                                                    <div class="col-md-offset-1 col-md-11">
+                                                        <div class="check_b submit_container">
+                                                            <div class="check_container">
+                                                                <input type="checkbox" class="check_policy" id="check_policy" name="check_policy"
+                                                                       value="check_policy" />
+                                                            </div>
+                                                            <label class="agree" for="check_policy">I agree to processing of my personal information in accordance with the
+                                                                <a href="#p_cookie-policy" class="popup-content">Privacy Policy</a>
+                                                            </label>
+                                                        </div>
+                                                    </div>
                                                 </div>
+
+
+                                                <div class="submit_container">
+
+                                                    <input name="submit" disabled Value="Send" class="submit" type="submit">
+                                                </div>
+
                                             </form>
                                         </div>
                                     </div>
@@ -602,15 +620,22 @@ if(isset($_POST['name'])){
                                                     <input placeholder="E-mail" required type="email" name="email">
                                                 </div>
 
-                                                <div class="submit_container">
-                                                    <input Value="Order" class="submit" type="submit">
-                                                </div>
+
 
                                         </div>
 
-                                            <input type="checkbox" id="check_policy" name="check_policy"
-                                                   value="check_policy" />
-                                            <label class="agree" for="check_policy">I agree to processing of my personal information in accordance with the Privacy Policy</label>
+                                        <div class="pop col-md-12">
+                                            <div class="check_c">
+                                                <div class="check_container">
+                                                    <input type="checkbox" class="check_policy" id="check_policy" name="check_policy"
+                                                       value="check_policy" />
+                                                </div>
+                                                <label class="agree" for="check_policy">I agree to processing of my personal information in accordance with the <a href="#p_cookie-policy" class="popup-content">Privacy Policy</a></label>
+                                            </div>
+                                            <div class="submit_container">
+                                                <input disabled Value="Order" class="submit" type="submit">
+                                            </div>
+                                        </div>
 
                                     </form>
                                 </div>
@@ -639,33 +664,40 @@ if(isset($_POST['name'])){
                         <div class="row">
                             <div class="body col-md-offset-1 col-md-10">
                                 <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="row">
-                                            <div class="mail"><a href="mailto:info@anchor-vr.com">info@anchor-vr.com</a></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="phone"><a href="tel:+79036115607">+7 903 611 5607</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <form action="index.php?bro=360" method="post">
-                                            <div class="submit_container">
-                                                <input placeholder="Name" required type="text" name="name">
+                                    <form action="index.php?bro=vr" method="post">
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="mail"><a href="mailto:info@anchor-vr.com">info@anchor-vr.com</a></div>
                                             </div>
-                                            <div class="submit_container">
-                                                <input placeholder="Company" type="text" name="company">
+                                            <div class="row">
+                                                <div class="phone"><a href="tel:+79036115607">+7 903 611 5607</a></div>
                                             </div>
+                                        </div>
+                                        <div class="col-md-7">
+
+
                                             <div class="submit_container">
                                                 <input placeholder="E-mail" required type="email" name="email">
                                             </div>
-                                            <div class="submit_container">
-                                                <input placeholder="Phone Number" type="tel" name="num">
+
+
+
+                                        </div>
+
+                                        <div class="pop col-md-12">
+                                            <div class="check_c">
+                                                <div class="check_container">
+                                                    <input type="checkbox" class="check_policy" id="check_policy" name="check_policy"
+                                                           value="check_policy" />
+                                                </div>
+                                                <label class="agree" for="check_policy">I agree to processing of my personal information in accordance with the <a href="#p_cookie-policy" class="popup-content">Privacy Policy</a></label>
                                             </div>
                                             <div class="submit_container">
-                                                <input Value="Order" class="submit" type="submit">
+                                                <input disabled Value="Order" class="submit" type="submit">
                                             </div>
-                                        </form>
-                                    </div>
+                                        </div>
+
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -861,8 +893,6 @@ if(isset($_POST['name'])){
         <div class="cookie_button">Accept</div>
     </div>
 
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -881,6 +911,7 @@ if(isset($_POST['name'])){
           type:'inline',
           midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
         });
+
     </script>
 
 
@@ -899,6 +930,7 @@ if(isset($_POST['name'])){
     });
     </script>
     <script src="js/cookie_disc.js"></script>
+    <script src="js/enable_button.js"></script>
 </body>
 
 </html>

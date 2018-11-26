@@ -2333,6 +2333,7 @@
 
 	body .contact_us .contact_container .contact .body form .submit_container{
 		justify-content: center;
+
 	}
 	body .contact_us .contact_container .contact .phone{
 		margin-bottom: 20px;
@@ -2806,7 +2807,21 @@
 	}
 
 }
-	
 
 
+@media(min-width:0px) and (max-width:992px) {
+
+	body .contact_us .contact_container .contact .body form .pop{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	body .contact_us .contact_container .contact .body form .submit_container{
+
+		&.check_b {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+}
 

@@ -8,7 +8,7 @@
 
   body header .black_row {
     border: 0;
-    border-radius: 0;
+    border-radius: 0; 
     z-index: 1;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -1940,3 +1940,13 @@
               background: #2f2e2e;
               color: #fff;
               padding: 0px; } }
+@media (min-width: 0px) and (max-width: 992px) {
+  body .contact_us .contact_container .contact .body form .pop {
+    margin-left: 20px;
+    margin-right: 20px; }
+
+  body .contact_us .contact_container .contact .body form .submit_container.check_b {
+    margin-left: 20px;
+    margin-right: 20px; } }
+
+/*# sourceMappingURL=media.css.map */

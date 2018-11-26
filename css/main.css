@@ -504,6 +504,20 @@ body .contact_us {
           color: #000; }
         body .contact_us .contact_container .contact .body .mail {
           margin-bottom: 20px; }
+        body .contact_us .contact_container .contact .body form input[type="submit" i]:disabled {
+          color: graytext !important;
+          opacity: 0.8;
+          border: none; }
+        body .contact_us .contact_container .contact .body form .check_container {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px; }
+          body .contact_us .contact_container .contact .body form .check_container .check_policy {
+            width: 20px;
+            height: 20px; }
+        body .contact_us .contact_container .contact .body form .agree {
+          margin-bottom: 15px;
+          font-size: 15px; }
         body .contact_us .contact_container .contact .body form input {
           width: 374px;
           height: 42px;
@@ -649,14 +663,28 @@ body footer .black_row {
             background: #2f2e2e;
             color: #fff;
             padding: 0px; }
-        .popup .contact_container .contact .body #check_policy {
+        .popup .contact_container .contact .body form input[type="submit" i]:disabled {
+          color: graytext !important;
+          opacity: 0.8;
+          border: none; }
+        .popup .contact_container .contact .body .pop .check_c {
+          display: flex;
+          justify-content: flex-end; }
+          .popup .contact_container .contact .body .pop .check_c .check_container {
+            width: 20px;
+            height: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px; }
+        .popup .contact_container .contact .body .pop .check_policy {
           width: 15px;
-          height: 15px; } 
-        .popup .contact_container .contact .body .agree {
+          height: 15px; }
+        .popup .contact_container .contact .body .pop .agree {
+          margin-top: 15px;
+          margin-bottom: 15px;
           font-size: 15px; }
 
 #p_cookie-policy ul, #p_cookie-policy ol {
-  list-style-type: disc;
+  list-style-type: disc; 
   list-style-position: inside;
   margin-left: 15px; }
 #p_cookie-policy .head {

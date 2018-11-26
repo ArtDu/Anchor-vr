@@ -702,6 +702,25 @@ body {
                         margin-bottom: 20px;
                     }
                     form {
+                        input[type="submit" i]:disabled{
+                          color: graytext !important;
+                          opacity: 0.8;
+                          border: none;
+                        }
+                        .check_container {
+                          width: 20px;
+                          height: 20px;
+                          margin-right: 10px;
+                          .check_policy{
+                            width: 20px;
+                            height: 20px;
+                          }
+                        }
+
+                        .agree{
+                          margin-bottom: 15px;
+                          font-size: 15px;
+                        }
                         input {
                             width: 374px;
                             height: 42px;
@@ -808,6 +827,7 @@ body {
         justify-content: center;
         align-items: center;
         .contact {
+
             .head {
                 margin-top: 55px;
                 margin-bottom: 22px;
@@ -889,14 +909,37 @@ body {
                             padding: 0px;
                         }
                     }
+                    input[type="submit" i]:disabled{
+                      color: graytext !important;
+                      opacity: 0.8;
+                      border: none;
+                    }
                 }
-                #check_policy{
-                  width: 15px;
-                  height: 15px;
+                .pop{
+                  .check_c{
+                    display: flex;
+                    justify-content: flex-end;
+                    .check_container{
+                      width: 20px;
+                      height: 20px;
+                      margin-top: 15px;
+                      margin-bottom: 15px;
+                    }
+                  }
+
+                  .check_policy{
+                    width: 15px;
+                    height: 15px;
+                  }
+                  .agree{
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    font-size: 15px;
+                  }
                 }
-                .agree{
-                  font-size: 15px;
-                }
+
+
+
             }
             text-align: center;
             margin-top: 75px;
