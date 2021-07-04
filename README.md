@@ -1,3 +1,3 @@
 # anchor-vr
 
-### сайт визитка
+### landing page - freelance work
